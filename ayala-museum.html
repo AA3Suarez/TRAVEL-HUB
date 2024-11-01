@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="descriptions.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>AYALA MUSEUM</title>
+</head>
+<body>
+    <header>
+        <!--Navigation bar container-->
+        <nav id="Home" class="navbar"> <!--Logo "JUAN WAY"-->
+            <div class="logo">
+                <p>AYALA<span class="way">MUSEUM</span></p>
+            </div>
+            <!--Contents of Navigation bar e.g. home, about us, etc.-->
+            <ul class="navinfo">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#image-collage">Image Collage</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <!--Sign-up form-button-->
+                    <a href="sign-upform.html" class="button">Book Now</a>
+                <div class="hamburger"> 
+                    <span class="line"></span>
+                    <span class="line"></span>
+                    <span class="line"></span>
+                </div>
+        </nav>
+
+            <div class="menubar">
+              <ul>
+                    <li>
+                        <a href="homepage.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="#image-collage">Image Collage</a>
+                    </li>
+                    <li>
+                        <a href="#contact">Contact</a>
+                    </li>
+              </ul>
+            </div>
+    </header>
+
+    <main>
+        <section id="history">
+            <h2>History of Ayala Museum</h2>
+            <p>Ayala Museum, located in the heart of Makati City, is one of the leading private museums in the Philippines. Established in 1967 by the Ayala Foundation, it was initially envisioned as a historical and ethnographic museum showcasing the rich cultural heritage of the Philippines. Over the years, it has evolved into a modern institution that not only preserves history but also promotes contemporary art and culture. The museum’s renowned diorama exhibit, which illustrates significant moments in Philippine history, remains one of its most popular attractions.</p>
+        </section>
+
+        <section id="architecture">
+            <h2>Architecture</h2>
+            <p>The architecture of Ayala Museum is contemporary, designed to reflect the progressive spirit of Makati’s urban landscape. The building features sleek lines, large glass panels, and an open layout that allows natural light to enhance the exhibition spaces. Inside, visitors will find state-of-the-art galleries and interactive spaces that blend aesthetics with functionality, creating an engaging experience for museum-goers.</p>
+        </section>
+
+        <section id="visiting-tips">
+            <h2>Visiting Tips</h2>
+            <p>It’s best to visit Ayala Museum with ample time to explore its comprehensive exhibits. Allocate a couple of hours for the diorama collection, art galleries, and special exhibits. The museum often hosts lectures, workshops, and cultural performances, so check their schedule online for additional activities that might interest you. Be aware of the photography policy, as some exhibits may not allow photos. Comfortable clothing and shoes are recommended.</p>
+        </section>
+
+        <section id="transportation">
+            <h2>Transportation</h2>
+            <p>Ayala Museum is conveniently located in Makati’s business district and is accessible via public transportation. The nearest MRT station is Ayala Station, from which the museum is a short walk or jeepney ride. Buses and jeepneys that pass through Ayala Avenue can drop you nearby. Taxis and rideshare services are also a practical option for reaching the museum from other parts of Metro Manila</p>
+        </section> 
+        
+        <section id="time_open">
+            <h2>Time Open</h2>
+            <p>The museum is generally open from Tuesday to Sunday, from mid-morning to early evening, and is closed on Mondays. To ensure a smooth visit, check the official Ayala Museum website or social media pages for any updates on hours, holiday closures, or ongoing special events.</p>
+        </section>
+
+        <section id="image-collage">
+            <h2>Image Collage</h2>
+            <div class="collage">
+                <img src="images/Manila/Museums/AyalaMuseum/Ayala1.jpg" alt="1">
+                <img src="images/Manila/Museums/AyalaMuseum/Ayala_Museum2.jpeg" alt="2">
+                <img src="images/Manila/Museums/AyalaMuseum/Diorama.JPG" alt="3">
+                <img src="images/Manila/Museums/AyalaMuseum/Jewerly.jpg" alt="4">
+                <img src="images/Manila/Museums/AyalaMuseum/Old_Ayala_Museum.jpg" alt="5">
+                <img src="images/Manila/Museums/AyalaMuseum/Pandemic.jpg" alt="6">
+            </div>
+        </section>
+
+        <!--tawagan-->
+        <section id="contact">
+            <h2>Contact <span class="way">Us</span></h2>
+            <form id="contactForm" onsubmit="return submitForm();">
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required placeholder="Enter your name">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required placeholder="Enter your email">
+                </div>
+                <div class="form-group">
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" required placeholder="Type your message here"></textarea>
+                </div>
+                <button type="submit" class="btn">Send</button>
+            </form>
+        </section>        
+    </main>
+
+    <!--paa-->
+    <footer>
+            <div class="footer-bottom">
+                <p>&copy; 2024 DUN SA FAR FAR AWAY. All rights reserved.</p>
+            </div>
+    </footer>
+
+    <script src="navbar.js"></script>
+</body>
+</html>

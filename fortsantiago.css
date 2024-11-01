@@ -1,0 +1,382 @@
+/* General  */
+* {
+    box-sizing: border-box;
+}
+
+/* Body Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(images/Manila/FortSantiago/Fort_santiago1.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+}
+
+/* Style for Navigation Bar */
+.navbar {
+    height: 110px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 18px 65px;
+    background-color: black;
+}
+
+.logo p {
+    color: white;
+}
+
+/* Color for font of logo */
+.navbar .way {
+    background-color: orange;
+    text-align: center;
+    color: black;
+    padding: 8px 8px;
+    margin-left: 5px;
+    border-radius: 10px;
+}
+
+/* Style for contents of navigation bar */
+.navbar .navinfo {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+/* Style for logo */
+.navbar .logo {
+    color: aliceblue;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* Style for contents of navigation bar */
+.navinfo li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: whitesmoke;
+    padding: 20px;
+    border: 0;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.navinfo li a:hover {
+    background-color: rgb(0, 0, 0, 0.336);
+    color: orange;
+    box-shadow: 0 0 5px rgb(0, 0, 0, 0.336), 0 0 25px rgb(0, 0, 0, 0.336),
+                0 0 25px rgb(0, 0, 0, 0.336) 0 0 25px rgb(0, 0, 0, 0.336);
+}
+
+/* Style for sign-up button */
+.navbar .button {
+    text-decoration: none;
+    font-family: 'Georgia', sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: orange;
+    color: black;
+    padding: 13px 20px;
+    border-radius: 20px;
+}
+
+.navbar .button:hover {
+    background-color: whitesmoke;
+}
+
+.hamburger {
+    display: none;
+    cursor: pointer;
+}
+
+.hamburger .line {
+    width: 25px;
+    height: 1px;
+    background-color: orange;
+    display: block;
+    margin: 7px auto;
+    transition: all 0.3s ease-in-out;
+}
+
+.hamburger-active {
+    transition: all 0.3s ease-in-out;
+    transition-delay: 0.6s;
+    transform: rotate(45deg);
+}
+
+.hamburger-active .line:nth-child(2) {
+    width: 0px;
+}
+
+.hamburger-active .line:nth-child(1),
+.hamburger-active .line:nth-child(3) {
+    transition-delay: 0.3s;
+}
+
+.hamburger-active .line:nth-child(1) {
+    transform: translateY(12px);
+}
+
+.hamburger-active .line:nth-child(3) {
+    transform: translateY(-5px) rotate(90deg);
+}
+
+.menubar {
+    position: absolute;
+    top: 0;
+    left: -60%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    width: 60%;
+    height: 100vh;
+    padding: 20% 0;
+    background: black;
+    transition: all 0.5s ease-in;
+    z-index: 2;
+}
+
+.active {
+    left: 0;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.menubar ul {
+    padding: 0;
+    list-style: none;
+    color: orange;
+}
+
+.menubar ul li {
+    margin-bottom: 32px;
+}
+
+.menubar ul li a {
+    text-decoration: none;
+    color: orange;
+    font-size: 95%;
+    font-weight: 400;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.menubar ul li a:hover {
+    background-color: orange;
+    color: black;
+}
+
+@media screen and (max-width: 790px) {
+    .hamburger {
+        display: block;
+    }
+    nav li {
+        display: none;
+    }
+}
+
+/* Main Section */
+main {
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.7); /* Dark background with transparency */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5); /* Shadow for depth */
+    margin: 20px; /* Space around the main section */
+}
+
+/* Headings */
+h2 {
+    color: #ffcc00; /* Gold color for headings */
+    margin-bottom: 10px; /* Space below the heading */
+}
+
+/* Paragraphs */
+.main p {
+    color: #ffffff; /* White text for paragraphs */
+}
+
+/* Unordered List Styles */
+ul {
+    list-style-type: disc; /* Bullet points for the list */
+    padding-left: 20px; /* Indent the list */
+    color: #ffffff; /* White color for list items */
+}
+
+ul li {
+    margin-bottom: 5px; /* Space between list items */
+}
+
+/* Section Styles */
+section {
+    margin-bottom: 40px;
+    color: #ffffff; /* White color for section text */
+}
+
+/* Image Collage Styles */
+.collage {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.collage img {
+    width: 100%;
+    height: 200px; /* Set a fixed height for uniformity */
+    object-fit: cover; /* Crop the image to cover the container */
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease; /* Animation for hover effect */
+}
+
+.collage img:hover {
+    transform: scale(1.05); /* Zoom effect on hover */
+}
+
+@media (max-width: 768px) {
+    .collage {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 480px) {
+    .collage {
+        grid-template-columns: 1fr;
+    }
+}
+
+/*more descrip*/
+
+.fortifiedcity {
+    padding: 20px; /* Space around the section */
+    text-align: center; /* Center align titles */
+}
+
+.titles h1 {
+    color: orange; /* Title color */
+    margin-bottom: 20px; /* Space below the title */
+}
+
+.columns {
+    display: flex; /* Use flexbox for layout */
+    flex-wrap: wrap; /* Allow items to wrap to the next line */
+    justify-content: center; /* Center the items horizontally */
+}
+
+.container {
+    max-width: 1200px; /* Max width for the container */
+    margin: 0 auto; /* Center the container */
+}
+
+.grid {
+    display: grid; /* Use CSS Grid for cards */
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Responsive columns */
+    gap: 20px; /* Space between cards */
+}
+
+.card {
+    background-color: rgb(22, 22, 22); /* Card background color */
+    border-radius: 10px; /* Rounded corners */
+    overflow: hidden; /* Hide overflow */
+    box-shadow: 0 1px 3px orange; /* Subtle shadow */
+    transition: transform 0.3s; /* Animation for hover effect */
+}
+
+.card img {
+    width: 100%; /* Make image full width */
+    height: auto; /* Maintain aspect ratio */
+    object-fit: cover;
+}
+
+.card h3 {
+    margin: 10px 0; /* Space around the title */
+    color: orange; /* Title color */
+    font-size: 16px; /* Font size for titles */
+}
+
+/* Hover effect */
+.card:hover {
+    transform: scale(1.05); /* Scale up on hover */
+}
+
+
+/*tawagan*/
+#contact {
+    background: black; /* background color */
+    padding: 20px;
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    margin: 0 auto 40px; /* Center the section and space below */
+    text-align: center;
+    width: 50%; /* Width of the section */
+}
+
+#contact h2 {
+    color: whitesmoke;
+    text-align: center;
+}
+
+#contact .way {
+    background-color: orange;
+    text-align: center;
+    color: black;
+    padding: 8px 8px;
+    margin-left: 1px;
+    border-radius: 10px;
+}
+
+
+.form-group {
+    margin-bottom: 15px; /* Space between form groups */
+}
+
+label {
+    display: block; /* Make label take the full width */
+    margin-bottom: 5px; /* Space below label */
+    color: whitesmoke; /* color for labels */
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 80%; /* Full width */
+    padding: 10px; /* Padding for comfort */
+    border: 1px solid #ccc; /* Light border */
+    border-radius: 5px; /* Rounded corners */
+    box-sizing: border-box; /* Include padding in width */
+}
+
+textarea {
+    height: 100px; /* Fixed height for textarea */
+    resize: none; /* Prevent resizing */
+}
+
+.btn {
+    background-color: orange; /* Button background color */
+    color: white; /* Button text color */
+    padding: 10px 15px; /* Padding for button */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Rounded corners for button */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s; /* Smooth transition */
+    color: black;
+    
+}
+
+.btn:hover {
+    background-color: whitesmoke; /* Darker shade on hover */
+}
+
+/* Footer Styles */
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: black;
+    color: orange;
+}

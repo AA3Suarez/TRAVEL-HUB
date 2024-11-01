@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="descriptions.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>NATIONAL MUSEUM OF ANTHROPOLOGY</title>
+</head>
+<body>
+    <header>
+        <!--Navigation bar container-->
+        <nav id="Home" class="navbar"> <!--Logo "JUAN WAY"-->
+            <div class="logo">
+                <p>ANTHROPOLOGY<span class="way">MUSEUM</span></p>
+            </div>
+            <!--Contents of Navigation bar e.g. home, about us, etc.-->
+            <ul class="navinfo">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#image-collage">Image Collage</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <!--Sign-up form-button-->
+                    <a href="sign-upform.html" class="button">Book Now</a>
+                <div class="hamburger"> 
+                    <span class="line"></span>
+                    <span class="line"></span>
+                    <span class="line"></span>
+                </div>
+        </nav>
+
+            <div class="menubar">
+              <ul>
+                    <li>
+                        <a href="homepage.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="#image-collage">Image Collage</a>
+                    </li>
+                    <li>
+                        <a href="#contact">Contact</a>
+                    </li>
+              </ul>
+            </div>
+    </header>
+
+    <main>
+        <section id="history">
+            <h2>History of Anthropology</h2>
+            <p>The National Museum of Anthropology, part of the National Museum Complex in Manila, is dedicated to showcasing the ethnographic and archaeological heritage of the Philippines. Established to celebrate and preserve the diverse cultural history of the country, it houses a rich collection that reflects the customs, artifacts, and ancestral traditions of various indigenous groups. The museum's exhibits provide an in-depth look at the evolution of Filipino society from prehistoric times to the present day.</p>
+        </section>
+
+        <section id="architecture">
+            <h2>Architecture</h2>
+            <p>The National Museum of Anthropology is housed in a Neoclassical building that was originally part of the Department of Finance. Its architecture features stately columns, spacious galleries, and large windows that allow natural light to enhance the display of artifacts. The interior layout is designed to lead visitors on a journey through different eras and cultural stories, with dedicated rooms for various themes, such as textiles, pottery, and religious artifacts.</p>
+        </section>
+
+        <section id="visiting-tips">
+            <h2>Visiting Tips</h2>
+            <p>Allocate at least a couple of hours to explore the exhibits thoroughly. The museum provides guided tours, which are a great way to gain deeper insights into the displays. Admission is typically free, but it's always best to verify current policies before your visit. Photography is allowed in most areas, but flash photography may be restricted. Wear comfortable shoes as the museum has multiple floors with extensive collections</p>
+        </section>
+
+        <section id="transportation">
+            <h2>Transportation</h2>
+            <p>The National Museum of Anthropology is accessible by various public transport options. The LRT Line 1 United Nations Avenue Station is nearby, making it convenient for those coming from other parts of Metro Manila. Jeepneys and buses with routes along Taft Avenue and Padre Burgos Street can drop you within walking distance of the museum. Taxis and rideshare services are also reliable options.</p>
+        </section> 
+        
+        <section id="time_open">
+            <h2>Time Open</h2>
+            <p>The museum is generally open from Tuesday to Sunday, from mid-morning to late afternoon, and is closed on Mondays and select holidays. To stay informed on special exhibits or temporary closures, it’s recommended to check the museum’s official website or social media updates.</p>
+        </section>
+
+        <section id="image-collage">
+            <h2>Image Collage</h2>
+            <div class="collage">
+                <img src="images/Manila/Museums/Anthropology/Anthropology1.jpg" alt="1">
+                <img src="images/Manila/Museums/Anthropology/Anthropology_Pillar.jpg" alt="2">
+                <img src="images/Manila/Museums/Anthropology/Balangay.jpg" alt="3">
+                <img src="images/Manila/Museums/Anthropology/Jars.jpg" alt="4">
+                <img src="images/Manila/Museums/Anthropology/Manunggul_Jar.jpg" alt="5">
+                <img src="images/Manila/Museums/Anthropology/Tools_And_Weapons.jpg" alt="6">
+            </div>
+        </section>
+
+        <!--tawagan-->
+        <section id="contact">
+            <h2>Contact <span class="way">Us</span></h2>
+            <form id="contactForm" onsubmit="return submitForm();">
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required placeholder="Enter your name">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required placeholder="Enter your email">
+                </div>
+                <div class="form-group">
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" required placeholder="Type your message here"></textarea>
+                </div>
+                <button type="submit" class="btn">Send</button>
+            </form>
+        </section>        
+    </main>
+
+    <!--paa-->
+    <footer>
+            <div class="footer-bottom">
+                <p>&copy; 2024 DUN SA FAR FAR AWAY. All rights reserved.</p>
+            </div>
+    </footer>
+
+    <script src="navbar.js"></script>
+</body>
+</html>

@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="descriptions.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>PINTO ART MUSEUM</title>
+</head>
+<body>
+    <header>
+        <!--Navigation bar container-->
+        <nav id="Home" class="navbar"> <!--Logo "JUAN WAY"-->
+            <div class="logo">
+                <p>PINTO ART<span class="way">MUSEUM</span></p>
+            </div>
+            <!--Contents of Navigation bar e.g. home, about us, etc.-->
+            <ul class="navinfo">
+                <li><a href="Antipolo.html">Home</a></li>
+                <li><a href="#image-collage">Image Collage</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <!--Sign-up form-button-->
+                    <a href="sign-upform.html" class="button">Book Now</a>
+                <div class="hamburger"> 
+                    <span class="line"></span>
+                    <span class="line"></span>
+                    <span class="line"></span>
+                </div>
+        </nav>
+
+            <div class="menubar">
+              <ul>
+                    <li>
+                        <a href="Antipolo.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="#image-collage">Image Collage</a>
+                    </li>
+                    <li>
+                        <a href="#contact">Contact</a>
+                    </li>
+              </ul>
+            </div>
+    </header>
+
+    <main>
+        <section id="history">
+            <h2>History</h2>
+            <p>Pinto Art Museum, located in Antipolo City, was established in 2010 by Dr. Joven Cuanang, a prominent neurologist and art patron, as part of his mission to promote Filipino art and culture. The museum is part of the Silangan Gardens and sits on a 1.3-hectare property surrounded by lush greenery. Its name, “Pinto,” meaning “door” in Filipino, symbolizes the museum as a gateway to contemporary and traditional art. Over the years, it has gained popularity as both an art and cultural hub, showcasing works from various Filipino artists and fostering a deeper appreciation for local art.</p>
+        </section>
+        
+        <section id="attractions">
+            <h2>Attractions</h2>
+            <p>Pinto Art Museum is renowned for its expansive collection of modern and contemporary art. The museum features various galleries that house paintings, sculptures, and installations. Notable attractions include thought-provoking artworks and interactive pieces that challenge conventional views. The architecture is as captivating as the art itself, with its Mediterranean-inspired design characterized by white-washed walls, open-air spaces, and gardens that seamlessly blend with the indoor exhibits. The museum also includes a theater and café, offering visitors an immersive and holistic cultural experience.</p>
+        </section>
+        
+        <section id="visiting-tips">
+            <h2>Visiting Tips</h2>
+            <ul>
+                <li>Best Time to Visit: Weekdays offer a quieter experience compared to weekends, and mornings are ideal for better lighting and cooler temperatures.</li>
+                <li>Photography: Visitors are encouraged to take photos, but flash photography is not allowed to preserve the art pieces.</li>
+                <li>Clothing: Wear comfortable attire and shoes as the museum's grounds include stairs and garden paths.</li>
+                <li>Respect the Art: Do not touch any of the artwork, and maintain a respectful distance when viewing installations.</li>
+            </ul>
+        </section>
+        
+        <section id="transportation">
+            <h2>Transportation</h2>
+            <p>Pinto Art Museum is easily accessible from Metro Manila. Visitors can take a bus or jeepney heading to Antipolo City. Once in Antipolo, tricycles are readily available to take you directly to the museum. For those driving, follow Ortigas Avenue Extension or Sumulong Highway to reach the museum. Ample parking is available on site.</p>
+        </section>
+        
+        <section id="time_open">
+            <h2>Time Open</h2>
+            <p>Pinto Art Museum is open from Tuesday to Sunday, typically from 10:00 AM to 6:00 PM. It is closed on Mondays. It’s recommended to check the museum’s official website or social media pages for any updates on operating hours or special events. Entrance fees apply, and cash is generally preferred for ticket purchases.</p>
+        </section>
+        
+        <section id="image-collage">
+            <h2>Image Collage</h2>
+            <div class="collage">
+                <img src="images/Antipolo/PintoArts/pinto-art1.jpg" alt="1">
+                <img src="images/Antipolo/PintoArts/pinto-art2.jpg" alt="2">
+                <img src="images/Antipolo/PintoArts/pinto-art3.jpg" alt="3">
+                <img src="images/Antipolo/PintoArts/pinto-art4.jpg" alt="4">
+                <img src="images/Antipolo/PintoArts/pinto-art5.jpg" alt="5">
+                <img src="images/Antipolo/PintoArts/Pinto_Art_Museum.jpg" alt="6">
+            </div>
+        </section>        
+
+        <!--tawagan-->        
+        <section id="contact">
+            <h2>Contact <span class="way">Us</span></h2>
+            <form id="contactForm" onsubmit="return submitForm();">
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required placeholder="Enter your name">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required placeholder="Enter your email">
+                </div>
+                <div class="form-group">
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" required placeholder="Type your message here"></textarea>
+                </div>
+                <button type="submit" class="btn">Send</button>
+            </form>
+        </section>        
+    </main>
+
+    <!--paa-->
+    <footer>
+            <div class="footer-bottom">
+                <p>&copy; 2024 DUN SA FAR FAR AWAY. All rights reserved.</p>
+            </div>
+    </footer>
+
+    <script src="navbar.js"></script>
+</body>
+</html>

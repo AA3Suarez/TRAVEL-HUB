@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="descriptions.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>BAHAY TSINOY</title>
+</head>
+<body>
+    <header>
+        <!--Navigation bar container-->
+        <nav id="Home" class="navbar"> <!--Logo "JUAN WAY"-->
+            <div class="logo">
+                <p>BAHAY <span class="way">TSINOY</span></p>
+            </div>
+            <!--Contents of Navigation bar e.g. home, about us, etc.-->
+            <ul class="navinfo">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#image-collage">Image Collage</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <!--Sign-up form-button-->
+                    <a href="sign-upform.html" class="button">Book Now</a>
+                <div class="hamburger"> 
+                    <span class="line"></span>
+                    <span class="line"></span>
+                    <span class="line"></span>
+                </div>
+        </nav>
+
+            <div class="menubar">
+              <ul>
+                    <li>
+                        <a href="homepage.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="#image-collage">Image Collage</a>
+                    </li>
+                    <li>
+                        <a href="#contact">Contact</a>
+                    </li>
+              </ul>
+            </div>
+    </header>
+
+    <main>
+        <section id="history">
+            <h2>History of Bahay Tsinoy</h2>
+            <p>Bahay Tsinoy, or the House of the Chinese, is a museum dedicated to the history and contributions of the Chinese community in the Philippines. Established in 1999, the museum is located in Intramuros, Manila, and showcases the rich heritage of Chinese Filipinos who have played a significant role in the country's development since the 16th century. The building itself is a restored bahay na bato (stone house) that reflects traditional Filipino-Chinese architectural influences. The museum houses various artifacts, photographs, and exhibits that highlight the cultural integration and history of the Chinese in Philippine society."</p>
+        </section>
+
+        <section id="architecture">
+            <h2>Architecture</h2>
+            <p>The architecture of Bahay Tsinoy is a blend of traditional Filipino and Chinese styles, characterized by its sturdy stone foundation, wooden upper floors, and intricately designed windows. The house features ornate details, such as carved woodwork and decorative tiles that reflect the aesthetic influences of both cultures. The layout includes a courtyard that serves as a communal space, reminiscent of traditional Chinese homes, promoting interaction among family members. This architectural fusion symbolizes the cultural exchange between the Filipino and Chinese communities throughout history.</p>
+        </section>
+
+        <section id="visiting-tips">
+            <h2>Visiting Tips</h2>
+            <p>When visiting Bahay Tsinoy, it’s advisable to take advantage of guided tours to fully appreciate the exhibits and gain insights into the history of Chinese Filipinos. Photography is allowed in most areas, but be respectful of the artifacts on display. The museum is small, so plan to spend about an hour exploring. Don’t forget to check out the museum shop for souvenirs and books related to Filipino-Chinese culture.</p>
+        </section>
+
+        <section id="transportation">
+            <h2>Transportation</h2>
+            <p>Bahay Tsinoy is conveniently located within the Intramuros district, making it accessible via public transportation. You can take a jeepney or taxi to Intramuros and then walk to the museum. The nearest LRT station is Central Terminal, which is a short distance away. If you prefer a guided experience, consider booking a tour that includes transportation to various historical sites within Intramuros.</p>
+        </section> 
+        
+        <section id="time_open">
+            <h2>Time Open</h2>
+            <p>Bahay Tsinoy is open from 9:00 AM to 5:00 PM from Tuesday to Sunday, and it is closed on Mondays. It’s best to check for any holiday hours or special events before your visit to ensure you have the most accurate information.</p>
+        </section>
+
+        <section id="image-collage">
+            <h2>Image Collage</h2>
+            <div class="collage">
+                <img src="images/Manila/Museums/BahayTsinoy/Bahay_Tsinoy1.jpg" alt="1">
+                <img src="images/Manila/Museums/BahayTsinoy/Diorama.jpg" alt="2">
+                <img src="images/Manila/Museums/BahayTsinoy/IMG_1002.JPG" alt="3">
+                <img src="images/Manila/Museums/BahayTsinoy/Arts.jpg" alt="4">
+            </div>
+        </section>
+
+        <!--tawagan-->
+        <section id="contact">
+            <h2>Contact <span class="way">Us</span></h2>
+            <form id="contactForm" onsubmit="return submitForm();">
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required placeholder="Enter your name">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required placeholder="Enter your email">
+                </div>
+                <div class="form-group">
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" required placeholder="Type your message here"></textarea>
+                </div>
+                <button type="submit" class="btn">Send</button>
+            </form>
+        </section>        
+    </main>
+
+    <!--paa-->
+    <footer>
+            <div class="footer-bottom">
+                <p>&copy; 2024 DUN SA FAR FAR AWAY. All rights reserved.</p>
+            </div>
+    </footer>
+
+    <script src="navbar.js"></script>
+</body>
+</html>

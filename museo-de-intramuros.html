@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="descriptions.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>MUSEO DE INTRAMUROS</title>
+</head>
+<body>
+    <header>
+        <!--Navigation bar container-->
+        <nav id="Home" class="navbar"> <!--Logo "JUAN WAY"-->
+            <div class="logo">
+                <p>MUSEO DE<span class="way">INTRAMUROS</span></p>
+            </div>
+            <!--Contents of Navigation bar e.g. home, about us, etc.-->
+            <ul class="navinfo">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#image-collage">Image Collage</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <!--Sign-up form-button-->
+                    <a href="sign-upform.html" class="button">Book Now</a>
+                <div class="hamburger"> 
+                    <span class="line"></span>
+                    <span class="line"></span>
+                    <span class="line"></span>
+                </div>
+        </nav>
+
+            <div class="menubar">
+              <ul>
+                    <li>
+                        <a href="homepage.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="#image-collage">Image Collage</a>
+                    </li>
+                    <li>
+                        <a href="#contact">Contact</a>
+                    </li>
+              </ul>
+            </div>
+    </header>
+
+    <main>
+        <section id="history">
+            <h2>History of Museo De Intramuros</h2>
+            <p>Museo de Intramuros, located within the historic walled city of Intramuros in Manila, was established to preserve and showcase the rich religious and cultural heritage of the Philippines during the Spanish colonial period. Opened in 2019, the museum occupies the reconstructed San Ignacio Church and the Mission House of the Society of Jesus. It serves as a testament to the centuries-old legacy of Spanish influence on Filipino art, architecture, and religious practices.</p>
+        </section>
+
+        <section id="architecture">
+            <h2>Architecture</h2>
+            <p>The architecture of Museo de Intramuros seamlessly integrates historical and modern design. The museum is housed in a building that mirrors the original structure of the San Ignacio Church, combining Baroque and Neo-Renaissance elements with contemporary museum facilities. Its spacious halls and detailed façades set the stage for various exhibits that include religious artifacts, colonial paintings, and ecclesiastical items, offering visitors an immersive journey into the past.</p>
+        </section>
+
+        <section id="visiting-tips">
+            <h2>Visiting Tips</h2>
+            <p>Plan your visit during the morning or early afternoon to have ample time to explore the exhibits. Guided tours provide enriched narratives behind the artifacts, so consider joining one if available. Admission policies vary, so checking for updates on entry fees or special events before visiting is recommended. Photography is typically allowed but may be restricted in certain sections, so observe the posted guidelines.</p>
+        </section>
+
+        <section id="transportation">
+            <h2>Transportation</h2>
+            <p>Museo de Intramuros is accessible via public transportation. Jeepneys and buses with routes passing through Intramuros or nearby areas make for a convenient commute. The museum is within walking distance from LRT Line 1 Central Terminal Station and other landmarks in Intramuros. Taxis and rideshare services are also viable for a hassle-free trip.</p>
+        </section> 
+        
+        <section id="time_open">
+            <h2>Time Open</h2>
+            <p>The museum is usually open from Tuesday to Sunday, from mid-morning to late afternoon, and is closed on Mondays. To confirm opening hours and any scheduled events, it’s best to check their official website or social media pages prior to your visit.</p>
+        </section>
+
+        <section id="image-collage">
+            <h2>Image Collage</h2>
+            <div class="collage">
+                <img src="images/Manila/Museums/MuseoDeIntramuros/Museo_de_Intramuros1.jpeg" alt="1">
+                <img src="images/Manila/Museums/MuseoDeIntramuros/museo de intramuros 2.jpg" alt="2">
+                <img src="images/Manila/Museums/MuseoDeIntramuros/museo de intramuros 3.jpg" alt="3">
+                <img src="images/Manila/Museums/MuseoDeIntramuros/museo de intramuros 4.jpg" alt="4">
+                <img src="images/Manila/Museums/MuseoDeIntramuros/museo de intramuros 5.jpg" alt="5">
+                <img src="images/Manila/Museums/MuseoDeIntramuros/museo de intramuros 6.jpg" alt="6">
+            </div>
+        </section>
+
+        <!--tawagan-->
+        <section id="contact">
+            <h2>Contact <span class="way">Us</span></h2>
+            <form id="contactForm" onsubmit="return submitForm();">
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required placeholder="Enter your name">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required placeholder="Enter your email">
+                </div>
+                <div class="form-group">
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" required placeholder="Type your message here"></textarea>
+                </div>
+                <button type="submit" class="btn">Send</button>
+            </form>
+        </section>        
+    </main>
+
+    <!--paa-->
+    <footer>
+            <div class="footer-bottom">
+                <p>&copy; 2024 DUN SA FAR FAR AWAY. All rights reserved.</p>
+            </div>
+    </footer>
+
+    <script src="navbar.js"></script>
+</body>
+</html>

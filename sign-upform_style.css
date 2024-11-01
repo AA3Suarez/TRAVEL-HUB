@@ -1,0 +1,87 @@
+*{
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.274),rgba(0,0,0,0.274)), url("https://upload.wikimedia.org/wikipedia/commons/9/93/The_Modern_Manila_Cathedral.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/* Basic Styles for the Login Page sheessshh sigma skibdi */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    height: 100%;
+}
+
+.login-container {
+    background-color: rgb(22, 22, 22); /* Semi-transparent white background */
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 10px 15px black;
+    width: 300px;
+    text-align: center;
+}
+
+h2 {
+    margin-bottom: 20px;
+    color: white; /*text for headings */  
+}
+.login-container .way{
+    background-color: orange;
+    text-align: center;
+    color: black; 
+    padding: 8px 8px;
+    margin-left: 5px;
+    border-radius: 10px;
+}
+
+.index {
+    color: white;
+    text-decoration: none;
+    font-style: italic;
+}
+
+input[type="text"], input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+input[type="submit"] {
+    background-color: orange;
+    color: black;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 25%;
+    font-weight: bold;
+}
+
+input[type="submit"]:hover {
+    background-color: white;
+}
+
+.register-link {
+    margin-top: 10px;
+    display: block;
+    color: white;
+    text-decoration: none;
+}
+
+.register-link:hover {
+    text-decoration: underline;
+}
+.index:hover {
+    text-decoration: underline;
+}

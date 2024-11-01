@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="descriptions.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>CLOUD9</title>
+</head>
+<body>
+    <header>
+        <!--Navigation bar container-->
+        <nav id="Home" class="navbar"> <!--Logo "JUAN WAY"-->
+            <div class="logo">
+                <p>CLOUD<span class="way">9</span></p>
+            </div>
+            <!--Contents of Navigation bar e.g. home, about us, etc.-->
+            <ul class="navinfo">
+                <li><a href="Antipolo.html">Home</a></li>
+                <li><a href="#image-collage">Image Collage</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <!--Sign-up form-button-->
+                    <a href="sign-upform.html" class="button">Book Now</a>
+                <div class="hamburger"> 
+                    <span class="line"></span>
+                    <span class="line"></span>
+                    <span class="line"></span>
+                </div>
+        </nav>
+
+            <div class="menubar">
+              <ul>
+                    <li>
+                        <a href="Antipolo.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="#image-collage">Image Collage</a>
+                    </li>
+                    <li>
+                        <a href="#contact">Contact</a>
+                    </li>
+              </ul>
+            </div>
+    </header>
+
+    <main>
+        <!--start-->
+        <section id="history">
+            <h2>History</h2>
+            <p>Cloud 9 in Antipolo began as a simple dining spot in the 1990s, catering to visitors who wanted to enjoy the breathtaking views of Metro Manila's skyline. Over time, it has evolved into a popular destination that offers not only dining but also unique experiences such as its iconic 360-degree view deck and hanging bridge. Cloud 9 has become a well-loved attraction for locals and tourists, symbolizing Antipolo's reputation as a place to relax and enjoy panoramic vistas.</p>
+        </section>
+        
+        <section id="attractions">
+            <h2>Attractions</h2>
+            <p>Cloud 9 is famous for its 360-degree view deck, which provides unparalleled views of the Manila skyline, especially stunning at sunset and at night when the city lights illuminate the horizon. The hanging bridge is an exciting feature, offering a thrilling walk high above the trees with breathtaking views on both sides. The complex also includes an art gallery showcasing local artworks, as well as a restaurant that serves traditional Filipino dishes and refreshments to complement the scenic experience.</p>
+        </section>
+        
+        <section id="visiting-tips">
+            <h2>Visiting Tips</h2>
+            <ul>
+                <li>Best Time to Visit: Late afternoons and evenings are ideal for witnessing the sunset and city lights.</li>
+                <li>Footwear: Comfortable shoes are recommended, especially if you plan to cross the hanging bridge or explore the area.</li>
+                <li>Photography: Bring a camera or smartphone to capture the views; photography is highly encouraged.</li>
+                <li>Weather: Check the weather forecast before visiting to avoid rain, which can limit visibility and make the walkways slippery.</li>
+            </ul>
+        </section>
+        
+        <section id="transportation">
+            <h2>Transportation</h2>
+            <p>Cloud 9 is located along Sumulong Highway, making it easily accessible by car or public transportation. From Metro Manila, you can take a UV Express or a jeepney bound for Antipolo City and get off at the Sumulong Highway junction. Tricycles are available for the short ride up to Cloud 9. For those driving, ample parking is provided for guests.</p>
+        </section>
+        
+        <section id="time_open">
+            <h2>Time Open</h2>
+            <p>Cloud 9 is generally open daily from 6:00 AM to 10:00 PM, with extended hours on weekends and holidays. It's advisable to check for any changes to their schedule, especially during inclement weather or special events.</p>
+        </section>        
+
+        <section id="image-collage">
+            <h2>Image Collage</h2>
+            <div class="collage">
+                <img src="images/Antipolo/Cloud9/cloud-9 1.jpg" alt="1">
+                <img src="images/Antipolo/Cloud9/Cloud-9 2.png" alt="2">
+                <img src="images/Antipolo/Cloud9/CLOUD-9 3.png" alt="3">
+                <img src="images/Antipolo/Cloud9/cloud-9 4.jpg" alt="4">
+                <img src="images/Antipolo/Cloud9/cloud-9 5.jpg" alt="5">
+                <img src="images/Antipolo/Cloud9/Cloud_9.jpg" alt="6">
+            </div>
+        </section>        
+
+        <!--tawagan-->        
+        <section id="contact">
+            <h2>Contact <span class="way">Us</span></h2>
+            <form id="contactForm" onsubmit="return submitForm();">
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required placeholder="Enter your name">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required placeholder="Enter your email">
+                </div>
+                <div class="form-group">
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" required placeholder="Type your message here"></textarea>
+                </div>
+                <button type="submit" class="btn">Send</button>
+            </form>
+        </section>        
+    </main>
+
+    <!--paa-->
+    <footer>
+            <div class="footer-bottom">
+                <p>&copy; 2024 DUN SA FAR FAR AWAY. All rights reserved.</p>
+            </div>
+    </footer>
+
+    <script src="navbar.js"></script>
+</body>
+</html>

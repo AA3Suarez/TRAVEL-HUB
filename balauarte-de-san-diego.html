@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="descriptions.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>BALUARTE DE SAN DIEGO</title>
+</head>
+<body>
+    <header>
+        <!--Navigation bar container-->
+        <nav id="Home" class="navbar"> <!--Logo "JUAN WAY"-->
+            <div class="logo">
+                <p>Baluarte De San <span class="way">Diego</span></p>
+            </div>
+            <!--Contents of Navigation bar e.g. home, about us, etc.-->
+            <ul class="navinfo">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#image-collage">Image Collage</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <!--Sign-up form-button-->
+                    <a href="sign-upform.html" class="button">Book Now</a>
+                <div class="hamburger"> 
+                    <span class="line"></span>
+                    <span class="line"></span>
+                    <span class="line"></span>
+                </div>
+        </nav>
+
+            <div class="menubar">
+              <ul>
+                    <li>
+                        <a href="homepage.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="#image-collage">Image Collage</a>
+                    </li>
+                    <li>
+                        <a href="#contact">Contact</a>
+                    </li>
+              </ul>
+            </div>
+    </header>
+
+    <main>
+        <section id="history">
+            <h2>History of Baluarte De San Diego</h2>
+            <p>Baluarte De San Diego, a part of the historic Intramuros in Manila, was built in the late 16th century as a bastion to protect the city from invasions. It was named after its first commander, Captain Diego Silang. The structure played a significant role during the Spanish colonial period and served as a military fortification against pirates and foreign powers. Over the years, it has undergone several renovations and restorations, reflecting the changes in military architecture and the historical context of the time."</p>
+        </section>
+
+        <section id="architecture">
+            <h2>Architecture</h2>
+            <p>The architecture of Baluarte De San Diego showcases a blend of Spanish colonial and Renaissance styles. The structure is characterized by its thick stone walls, angular bastions, and a moat that once surrounded the fort. The design emphasizes defense and military strategy, with features such as gun embrasures for cannons and strategic vantage points for surveillance. The interior has been landscaped to create a serene garden, offering a glimpse of the historical significance and aesthetic beauty of the site.</p>
+        </section>
+
+        <section id="visiting-tips">
+            <h2>Visiting Tips</h2>
+            <p>When visiting Baluarte De San Diego, it is advisable to wear comfortable shoes, as the grounds may involve walking on uneven surfaces. A guided tour is highly recommended to gain deeper insights into the history and architecture of the site. Take time to explore the surrounding areas of Intramuros, as there are numerous attractions, shops, and eateries nearby. Photography is allowed, so bring a camera to capture the picturesque views.</p>
+        </section>
+
+        <section id="transportation">
+            <h2>Transportation</h2>
+            <p>Baluarte De San Diego is easily accessible via public transportation. You can take the LRT (Light Rail Transit) and get off at the Central Terminal Station, which is a short walk from Intramuros. Taxis and ride-sharing services are also available for a more convenient option. If you prefer to explore on foot, consider walking through the historic streets of Intramuros to fully appreciate the area’s charm.</p>
+        </section> 
+        
+        <section id="time_open">
+            <h2>Time Open</h2>
+            <p>Baluarte De San Diego is open to the public from 8:00 AM to 6:00 PM daily. Visitors are encouraged to check for any special events or closures before planning their visit. It’s a good idea to arrive early to avoid crowds and enjoy a leisurely exploration of the site.</p>
+        </section>
+
+        <section id="image-collage">
+            <h2>Image Collage</h2>
+            <div class="collage">
+                <img src="images/Manila/FortSantiago/BaluarteDeSanDiego/Baluarte_de_San_Diego1.jpg" alt="1">
+                <img src="images/Manila/FortSantiago/BaluarteDeSanDiego/Old_Bastion_de_San_Diego.jpg" alt="2">
+                <img src="images/Manila/FortSantiago/BaluarteDeSanDiego/Old_Canons.jpg" alt="3">
+            </div>
+        </section>
+
+        <!--tawagan-->
+        <section id="contact">
+            <h2>Contact <span class="way">Us</span></h2>
+            <form id="contactForm" onsubmit="return submitForm();">
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required placeholder="Enter your name">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required placeholder="Enter your email">
+                </div>
+                <div class="form-group">
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" required placeholder="Type your message here"></textarea>
+                </div>
+                <button type="submit" class="btn">Send</button>
+            </form>
+        </section>        
+    </main>
+
+    <!--paa-->
+    <footer>
+            <div class="footer-bottom">
+                <p>&copy; 2024 DUN SA FAR FAR AWAY. All rights reserved.</p>
+            </div>
+    </footer>
+
+    <script src="navbar.js"></script>
+</body>
+</html>

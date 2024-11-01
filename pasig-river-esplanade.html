@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="descriptions.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>PASIG RIVER ESPLANADE</title>
+</head>
+<body>
+    <header>
+        <!--Navigation bar container-->
+        <nav id="Home" class="navbar"> <!--Logo "JUAN WAY"-->
+            <div class="logo">
+                <p>PASIG RIVER<span class="way">ESPLANADE</span></p>
+            </div>
+            <!--Contents of Navigation bar e.g. home, about us, etc.-->
+            <ul class="navinfo">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#image-collage">Image Collage</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <!--Sign-up form-button-->
+                    <a href="sign-upform.html" class="button">Book Now</a>
+                <div class="hamburger"> 
+                    <span class="line"></span>
+                    <span class="line"></span>
+                    <span class="line"></span>
+                </div>
+        </nav>
+
+            <div class="menubar">
+              <ul>
+                    <li>
+                        <a href="homepage.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="#image-collage">Image Collage</a>
+                    </li>
+                    <li>
+                        <a href="#contact">Contact</a>
+                    </li>
+              </ul>
+            </div>
+    </header>
+
+    <main>
+        <section id="history">
+            <h2>History of Pasig River Esplanade</h2>
+            <p>The Pasig River Esplanade is a revitalization project aimed at transforming the banks of the Pasig River into a scenic urban park and recreational space. The esplanade was developed as part of efforts to clean up and restore the Pasig River, which has faced pollution challenges over the years. Officially opened in 2015, it has since become a popular spot for walking, jogging, and community events, promoting awareness of the river's ecological importance.</p>
+        </section>
+
+        <section id="architecture">
+            <h2>Architecture</h2>
+            <p>The architecture of the Pasig River Esplanade features modern design elements that harmonize with the natural landscape. The pathways are lined with trees and landscaped areas, providing a refreshing contrast to the urban environment. Benches, shaded areas, and viewing decks allow visitors to relax and enjoy the river's scenery. The esplanade also includes areas for exercise and recreation, making it a multifunctional space for community engagement.</p>
+        </section>
+
+        <section id="visiting-tips">
+            <h2>Visiting Tips</h2>
+            <p>For the best experience at the Pasig River Esplanade, visit during the early morning or late afternoon when the weather is cooler. Bring comfortable shoes for walking or jogging along the paths. The esplanade is ideal for leisurely strolls, picnics, or even cycling, so consider bringing snacks and water. Be aware of local events, as the area often hosts community activities and festivals that add to the vibrant atmosphere.</p>
+        </section>
+
+        <section id="transportation">
+            <h2>Transportation</h2>
+            <p>The Pasig River Esplanade is accessible by various modes of transportation. Public buses and jeepneys that run along major routes near the river provide convenient access. The area is also reachable by taxi or rideshare services, making it easy for visitors from different parts of Metro Manila. For those driving, parking facilities are available nearby, but it’s best to arrive early to secure a spot.</p>
+        </section> 
+        
+        <section id="time_open">
+            <h2>Time Open</h2>
+            <p>The Pasig River Esplanade is open to the public year-round, allowing visitors to enjoy the space at any time. While it’s generally safe to visit during the day, it’s advisable to check local guidelines regarding nighttime access. Special events and activities may have specific schedules, so it's good to stay updated through community announcements.
+
+            </p>
+        </section>
+
+        <section id="image-collage">
+            <h2>Image Collage</h2>
+            <div class="collage">
+                <img src="images/Manila/PublicPlaces/PasigRiverEsplanade/Esplanade1.jpg" alt="1">
+                <img src="images/Manila/PublicPlaces/PasigRiverEsplanade/Pasig_River.jpg" alt="2">
+                <img src="images/Manila/PublicPlaces/PasigRiverEsplanade/River_Side.jpg" alt="3">
+            </div>
+        </section>
+
+        <!--tawagan-->
+        <section id="contact">
+            <h2>Contact <span class="way">Us</span></h2>
+            <form id="contactForm" onsubmit="return submitForm();">
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required placeholder="Enter your name">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required placeholder="Enter your email">
+                </div>
+                <div class="form-group">
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" required placeholder="Type your message here"></textarea>
+                </div>
+                <button type="submit" class="btn">Send</button>
+            </form>
+        </section>        
+    </main>
+
+    <!--paa-->
+    <footer>
+            <div class="footer-bottom">
+                <p>&copy; 2024 DUN SA FAR FAR AWAY. All rights reserved.</p>
+            </div>
+    </footer>
+
+    <script src="navbar.js"></script>
+</body>
+</html>

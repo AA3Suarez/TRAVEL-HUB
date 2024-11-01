@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="descriptions.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>BINONDO CHURCH</title>
+</head>
+<body>
+    <header>
+        <!--Navigation bar container-->
+        <nav id="Home" class="navbar"> <!--Logo "JUAN WAY"-->
+            <div class="logo">
+                <p>BINONDO<span class="way">CHURCH</span></p>
+            </div>
+            <!--Contents of Navigation bar e.g. home, about us, etc.-->
+            <ul class="navinfo">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#image-collage">Image Collage</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <!--Sign-up form-button-->
+                    <a href="sign-upform.html" class="button">Book Now</a>
+                <div class="hamburger"> 
+                    <span class="line"></span>
+                    <span class="line"></span>
+                    <span class="line"></span>
+                </div>
+        </nav>
+
+            <div class="menubar">
+              <ul>
+                    <li>
+                        <a href="homepage.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="#image-collage">Image Collage</a>
+                    </li>
+                    <li>
+                        <a href="#contact">Contact</a>
+                    </li>
+              </ul>
+            </div>
+    </header>
+
+    <main>
+        <section id="history">
+            <h2>History of Binondo Church</h2>
+            <p>Binondo Church, also known as the Minor Basilica of Saint Lorenzo Ruiz, holds a significant place in Manila's history as one of the oldest churches in the city. Founded in 1596 by Dominican priests to serve the Chinese Christian community, the church has withstood various reconstructions due to earthquakes and World War II bombings. The church is named after Saint Lorenzo Ruiz, the first Filipino martyr and saint, who served as an altar boy here before becoming a missionary.</p>
+        </section>
+
+        <section id="architecture">
+            <h2>Architecture</h2>
+            <p>The architecture of Binondo Church features a combination of Baroque and Romanesque styles. Its iconic bell tower stands out as a testament to its enduring presence through centuries of change. The interior showcases ornate details with vaulted ceilings, intricate carvings, and religious frescoes that tell stories of faith and perseverance. The church's historical charm is complemented by modern renovations that ensure its continued beauty and structure.</p>
+        </section>
+
+        <section id="visiting-tips">
+            <h2>Visiting Tips</h2>
+            <p>Visiting Binondo Church can be a spiritually enriching experience. It's best to visit during weekdays or non-peak hours to appreciate the serene atmosphere. The church is located in the heart of Manila’s Chinatown, so visitors can combine their visit with a food trip or cultural tour of the area. Dress modestly as a sign of respect, and consider attending a Mass to experience the local community’s devotion.</p>
+        </section>
+
+        <section id="transportation">
+            <h2>Transportation</h2>
+            <p>Binondo Church is easily accessible via public transportation. The LRT Line 1's Carriedo Station is a short walk away, and numerous jeepneys and buses pass through the area, particularly those going to Divisoria or Quiapo. Rideshares and taxis are also viable options, especially if you are visiting with a group or carrying items.</p>
+        </section> 
+        
+        <section id="time_open">
+            <h2>Time Open</h2>
+            <p>The church is generally open daily from early morning until evening, with multiple Masses throughout the day. Special services and schedules may apply during religious holidays and feast days, so it's advisable to check their official page or contact the parish office for the most accurate information.</p>
+        </section>
+
+        <section id="image-collage">
+            <h2>Image Collage</h2>
+            <div class="collage">
+                <img src="images/Manila/Pilgrims/BinondoChurch/Binondo_Church.jpg" alt="1">
+                <img src="images/Manila/Pilgrims/BinondoChurch/Binondo_Church_Intetior.jpg" alt="2">
+                <img src="images/Manila/Pilgrims/BinondoChurch/Old_Binondo_Church.jpg" alt="3">
+                <img src="images/Manila/Pilgrims/BinondoChurch/San_Lorenzo_Ruiz.jpg" alt="4">
+            </div>
+        </section>
+
+        <!--tawagan-->
+        <section id="contact">
+            <h2>Contact <span class="way">Us</span></h2>
+            <form id="contactForm" onsubmit="return submitForm();">
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required placeholder="Enter your name">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required placeholder="Enter your email">
+                </div>
+                <div class="form-group">
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" required placeholder="Type your message here"></textarea>
+                </div>
+                <button type="submit" class="btn">Send</button>
+            </form>
+        </section>        
+    </main>
+
+    <!--paa-->
+    <footer>
+            <div class="footer-bottom">
+                <p>&copy; 2024 DUN SA FAR FAR AWAY. All rights reserved.</p>
+            </div>
+    </footer>
+
+    <script src="navbar.js"></script>
+</body>
+</html>

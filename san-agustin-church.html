@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="descriptions.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>SAN AGUSTIN CHURCH</title>
+</head>
+<body>
+    <header>
+        <!--Navigation bar container-->
+        <nav id="Home" class="navbar"> <!--Logo "JUAN WAY"-->
+            <div class="logo">
+                <p>SAN AGUSTIN<span class="way">CHURCH</span></p>
+            </div>
+            <!--Contents of Navigation bar e.g. home, about us, etc.-->
+            <ul class="navinfo">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#image-collage">Image Collage</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <!--Sign-up form-button-->
+                    <a href="sign-upform.html" class="button">Book Now</a>
+                <div class="hamburger"> 
+                    <span class="line"></span>
+                    <span class="line"></span>
+                    <span class="line"></span>
+                </div>
+        </nav>
+
+            <div class="menubar">
+              <ul>
+                    <li>
+                        <a href="homepage.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="#image-collage">Image Collage</a>
+                    </li>
+                    <li>
+                        <a href="#contact">Contact</a>
+                    </li>
+              </ul>
+            </div>
+    </header>
+
+    <main>
+        <section id="history">
+            <h2>History of San Agustin Church</h2>
+            <p>San Agustin Church, located in the historic district of Intramuros, is the oldest stone church in the Philippines. Completed in 1607, it was built under the supervision of the Augustinian order. The church has survived several earthquakes, including the devastating quake of 1863, and has served as a witness to the rich history of Manila, including the Spanish colonial period and the events of World War II. In 1993, it was designated a UNESCO World Heritage Site as part of the "Baroque Churches of the Philippines."</p>
+        </section>
+
+        <section id="architecture">
+            <h2>Architecture</h2>
+            <p>San Agustin Church is a prime example of Baroque architecture, characterized by its elaborate facade and ornate interiors. The church features a grand entrance with intricate carvings and a beautiful wooden ceiling adorned with stunning murals. The altar is elaborately decorated, and the church is surrounded by lush gardens, providing a serene atmosphere. Its unique combination of Filipino and Spanish architectural styles makes it a significant cultural landmark.</p>
+        </section>
+
+        <section id="visiting-tips">
+            <h2>Visiting Tips</h2>
+            <p>Visitors to San Agustin Church should consider attending a Mass or guided tour to fully appreciate its historical and cultural significance. It's advisable to dress modestly when visiting, as it is a place of worship. Photography is allowed, but be respectful of ongoing services. Guided tours are available to provide deeper insights into the church's history and architecture.</p>
+        </section>
+
+        <section id="transportation">
+            <h2>Transportation</h2>
+            <p>San Agustin Church is easily accessible via various modes of transportation. Public buses and jeepneys have routes that pass through Intramuros. The church is also within walking distance from major attractions in the area. For those driving, parking is available nearby, but it can be limited during peak hours.</p>
+        </section> 
+        
+        <section id="time_open">
+            <h2>Time Open</h2>
+            <p>San Agustin Church is generally open for visitors from 8:00 AM to 6:00 PM daily. However, visitors should check for specific Mass schedules and any changes in visiting hours, especially during holidays and special events.</p>
+        </section>
+
+        <section id="image-collage">
+            <h2>Image Collage</h2>
+            <div class="collage">
+                <img src="images/Manila/Pilgrims/SanAgustinChurch/San_Agustin_Church.jpeg" alt="1">
+                <img src="images/Manila/Pilgrims/SanAgustinChurch/Our_Lady_Of_Consolacion.jpg" alt="2">
+                <img src="images/Manila/Pilgrims/SanAgustinChurch/San-Agustin-Instramuros.jpg" alt="3">
+                <img src="images/Manila/Pilgrims/SanAgustinChurch/Old_San_Agustin_Church.jpg" alt="4">
+                <img src="images/Manila/Pilgrims/SanAgustinChurch/San_Agustin_Altar.jpg" alt="5">
+                <img src="images/Manila/Pilgrims/SanAgustinChurch/World_War2.jpg" alt="6">
+            </div>
+        </section>
+
+        <!--tawagan-->
+        <section id="contact">
+            <h2>Contact <span class="way">Us</span></h2>
+            <form id="contactForm" onsubmit="return submitForm();">
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required placeholder="Enter your name">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required placeholder="Enter your email">
+                </div>
+                <div class="form-group">
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" required placeholder="Type your message here"></textarea>
+                </div>
+                <button type="submit" class="btn">Send</button>
+            </form>
+        </section>        
+    </main>
+
+    <!--paa-->
+    <footer>
+            <div class="footer-bottom">
+                <p>&copy; 2024 DUN SA FAR FAR AWAY. All rights reserved.</p>
+            </div>
+    </footer>
+
+    <script src="navbar.js"></script>
+</body>
+</html>

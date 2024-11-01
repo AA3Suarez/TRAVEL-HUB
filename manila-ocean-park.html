@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="descriptions.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>MANILA OCEAN PARK</title>
+</head>
+<body>
+    <header>
+        <!--Navigation bar container-->
+        <nav id="Home" class="navbar"> <!--Logo "JUAN WAY"-->
+            <div class="logo">
+                <p>MANILA OCEAN<span class="way">PARK</span></p>
+            </div>
+            <!--Contents of Navigation bar e.g. home, about us, etc.-->
+            <ul class="navinfo">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#image-collage">Image Collage</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <!--Sign-up form-button-->
+                    <a href="sign-upform.html" class="button">Book Now</a>
+                <div class="hamburger"> 
+                    <span class="line"></span>
+                    <span class="line"></span>
+                    <span class="line"></span>
+                </div>
+        </nav>
+
+            <div class="menubar">
+              <ul>
+                    <li>
+                        <a href="homepage.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="#image-collage">Image Collage</a>
+                    </li>
+                    <li>
+                        <a href="#contact">Contact</a>
+                    </li>
+              </ul>
+            </div>
+    </header>
+
+    <main>
+        <section id="history">
+            <h2>History of Manila Ocean Park</h2>
+            <p>Manila Ocean Park, opened in 2008, is the first world-class marine theme park and oceanarium in the Philippines. It was designed to blend education and entertainment, offering visitors an immersive experience that highlights the beauty and diversity of marine life. Over the years, it has expanded its attractions to include various exhibits, animal encounters, and shows, making it a popular destination for families and tourists.</p>
+        </section>
+
+        <section id="architecture">
+            <h2>Architecture</h2>
+            <p>The architecture of Manila Ocean Park is modern and functional, with an emphasis on creating a seamless flow between different attractions. The main feature is the oceanarium, which boasts a 25-meter-long walkway tunnel surrounded by water, allowing guests to feel as though they are walking underwater. The facility also includes spacious exhibit halls, interactive areas, and large viewing panels designed to provide an up-close look at marine creatures.</p>
+        </section>
+
+        <section id="visiting-tips">
+            <h2>Visiting Tips</h2>
+            <p>To make the most of your visit to Manila Ocean Park, it is best to arrive early to explore all the attractions at a comfortable pace. Purchasing tickets online in advance can help avoid long queues. Be sure to check the show schedules and plan your visit around popular features like the sea lion performance and bird show. Comfortable clothing and footwear are recommended, and bringing a camera is a must for capturing memorable moments.</p>
+        </section>
+
+        <section id="transportation">
+            <h2>Transportation</h2>
+            <p>Manila Ocean Park is conveniently located near Rizal Park and is accessible by various modes of transportation. The LRT Line 1 United Nations Avenue Station is nearby, and jeepneys or buses passing through Roxas Boulevard also serve the area. Rideshares and taxis are practical options, especially for visitors coming in groups or from farther locations.</p>
+        </section> 
+        
+        <section id="time_open">
+            <h2>Time Open</h2>
+            <p>Manila Ocean Park is generally open from mid-morning until late evening, with specific operating hours varying depending on the day and season. It’s advisable to check their official website or social media for updated information on opening hours and special events.</p>
+        </section>
+
+        <section id="image-collage">
+            <h2>Image Collage</h2>
+            <div class="collage">
+                <img src="images/Manila/PublicPlaces/ManilaOceanPark/Manila_Ocean_Park1.jpg" alt="1">
+                <img src="images/Manila/PublicPlaces/ManilaOceanPark/Aquarium.jpg" alt="2">
+                <img src="images/Manila/PublicPlaces/ManilaOceanPark/Mermaids.png" alt="3">
+                <img src="images/Manila/PublicPlaces/ManilaOceanPark/Sharks.jpg" alt="4">
+                <img src="images/Manila/PublicPlaces/ManilaOceanPark/Creepy_Crawlies.png" alt="5">
+                <img src="images/Manila/PublicPlaces/ManilaOceanPark/Show.png" alt="6">
+            </div>
+        </section>
+
+        <!--tawagan-->
+        <section id="contact">
+            <h2>Contact <span class="way">Us</span></h2>
+            <form id="contactForm" onsubmit="return submitForm();">
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required placeholder="Enter your name">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required placeholder="Enter your email">
+                </div>
+                <div class="form-group">
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" required placeholder="Type your message here"></textarea>
+                </div>
+                <button type="submit" class="btn">Send</button>
+            </form>
+        </section>        
+    </main>
+
+    <!--paa-->
+    <footer>
+            <div class="footer-bottom">
+                <p>&copy; 2024 DUN SA FAR FAR AWAY. All rights reserved.</p>
+            </div>
+    </footer>
+
+    <script src="navbar.js"></script>
+</body>
+</html>

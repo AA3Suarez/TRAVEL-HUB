@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="descriptions.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>BACLARAN CHURCH</title>
+</head>
+<body>
+    <header>
+        <!--Navigation bar container-->
+        <nav id="Home" class="navbar"> <!--Logo "JUAN WAY"-->
+            <div class="logo">
+                <p>BACLARAN<span class="way">CHURCH</span></p>
+            </div>
+            <!--Contents of Navigation bar e.g. home, about us, etc.-->
+            <ul class="navinfo">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#image-collage">Image Collage</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <!--Sign-up form-button-->
+                    <a href="sign-upform.html" class="button">Book Now</a>
+                <div class="hamburger"> 
+                    <span class="line"></span>
+                    <span class="line"></span>
+                    <span class="line"></span>
+                </div>
+        </nav>
+
+            <div class="menubar">
+              <ul>
+                    <li>
+                        <a href="homepage.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="#image-collage">Image Collage</a>
+                    </li>
+                    <li>
+                        <a href="#contact">Contact</a>
+                    </li>
+              </ul>
+            </div>
+    </header>
+
+    <main>
+        <section id="history">
+            <h2>History of Baclaran Church</h2>
+            <p>Baclaran Church, officially known as the National Shrine of Our Mother of Perpetual Help, is one of the most visited Marian shrines in the Philippines. Its origins date back to 1932 when the Redemptorist priests began promoting devotion to Our Mother of Perpetual Help. The church gained prominence after World War II and has become a center for spiritual devotion, especially during the popular “Baclaran Day” every Wednesday when thousands of devotees gather for the novena.</p>
+        </section>
+
+        <section id="architecture">
+            <h2>Architecture</h2>
+            <p>Baclaran Church is known for its Modern Romanesque architectural design. The expansive interior features high vaulted ceilings, large stained-glass windows, and a grand altar dedicated to the Virgin Mary. The church's design allows it to accommodate up to 2,000 people indoors and even more in its outdoor spaces, reflecting its role as a pilgrimage site for both locals and international visitors.</p>
+        </section>
+
+        <section id="visiting-tips">
+            <h2>Visiting Tips</h2>
+            <p>When visiting Baclaran Church, it is best to plan your trip on a weekday or outside of Wednesday novena services if you prefer a quieter experience. On Wednesdays and during Marian feast days, expect large crowds. Dress modestly and be mindful of the church’s customs. Be prepared for traffic and limited parking in the area, so arriving early is recommended.</p>
+        </section>
+
+        <section id="transportation">
+            <h2>Transportation</h2>
+            <p>Baclaran Church is highly accessible due to its location near major roads and transport hubs. The LRT Line 1 Baclaran Station is within walking distance, and buses, jeepneys, and tricycles frequently pass by the area. For convenience, rideshare services and taxis are also popular options, especially for those coming from farther parts of Metro Manila.</p>
+        </section> 
+        
+        <section id="time_open">
+            <h2>Time Open</h2>
+            <p>The church is open 24 hours a day, seven days a week, welcoming pilgrims and visitors for prayers and Masses at any time. However, specific service schedules and novena times are posted on the church’s website and social media pages, so checking these ahead is recommended for updated details.</p>
+        </section>
+
+        <section id="image-collage">
+            <h2>Image Collage</h2>
+            <div class="collage">
+                <img src="images/Manila/Pilgrims/BaclaranChurch/Baclaran_Church.jpg" alt="1">
+                <img src="images/Manila/Pilgrims/BaclaranChurch/Baclaran_Church_interior.jpg" alt="2">
+                <img src="images/Manila/Pilgrims/BaclaranChurch/Mission.jpg" alt="3">
+                <img src="images/Manila/Pilgrims/BaclaranChurch/Our_Lady_of_Perpetual_Help.jpg" alt="4">
+                <img src="images/Manila/Pilgrims/BaclaranChurch/Redemptorists.jpg" alt="5">
+            </div>
+        </section>
+
+        <!--tawagan-->
+        <section id="contact">
+            <h2>Contact <span class="way">Us</span></h2>
+            <form id="contactForm" onsubmit="return submitForm();">
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required placeholder="Enter your name">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required placeholder="Enter your email">
+                </div>
+                <div class="form-group">
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" required placeholder="Type your message here"></textarea>
+                </div>
+                <button type="submit" class="btn">Send</button>
+            </form>
+        </section>        
+    </main>
+
+    <!--paa-->
+    <footer>
+            <div class="footer-bottom">
+                <p>&copy; 2024 DUN SA FAR FAR AWAY. All rights reserved.</p>
+            </div>
+    </footer>
+
+    <script src="navbar.js"></script>
+</body>
+</html>

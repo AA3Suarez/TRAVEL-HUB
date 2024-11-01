@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="descriptions.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>MANILA CATHEDRAL</title>
+</head>
+<body>
+    <header>
+        <!--Navigation bar container-->
+        <nav id="Home" class="navbar"> <!--Logo "JUAN WAY"-->
+            <div class="logo">
+                <p>MANILA<span class="way">CATHEDRAL</span></p>
+            </div>
+            <!--Contents of Navigation bar e.g. home, about us, etc.-->
+            <ul class="navinfo">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#image-collage">Image Collage</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <!--Sign-up form-button-->
+                    <a href="sign-upform.html" class="button">Book Now</a>
+                <div class="hamburger"> 
+                    <span class="line"></span>
+                    <span class="line"></span>
+                    <span class="line"></span>
+                </div>
+        </nav>
+
+            <div class="menubar">
+              <ul>
+                    <li>
+                        <a href="homepage.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="#image-collage">Image Collage</a>
+                    </li>
+                    <li>
+                        <a href="#contact">Contact</a>
+                    </li>
+              </ul>
+            </div>
+    </header>
+
+    <main>
+        <section id="history">
+            <h2>History of Manila Cathedral</h2>
+            <p>The Manila Cathedral has a rich and storied past that dates back to its original construction in 1581. Initially built as a simple structure made of bamboo and nipa palm, the cathedral has undergone several reconstructions and renovations due to natural disasters, including earthquakes and World War II bombings. The current structure, completed in 1958, is the eighth iteration of the cathedral and features a stunning façade adorned with intricate sculptures and reliefs. Throughout its history, it has served as the seat of the Archdiocese of Manila and has hosted significant events, including the funeral of national hero Dr. José Rizal.</p>
+        </section>
+
+        <section id="architecture">
+            <h2>Architecture</h2>
+            <p>The Manila Cathedral, officially known as the Minor Basilica and National Shrine of the Immaculate Conception, showcases stunning Neo-Romanesque architecture. Its magnificent façade features intricate carvings and sculptures, while the impressive dome rises gracefully above the city skyline. Inside, visitors are greeted by beautiful stained glass windows that filter light into the spacious nave, enhancing the cathedral's serene ambiance. The rich history of the cathedral is reflected in its various renovations and restorations over the years, each adding to its grandeur and significance.</p>
+        </section>
+
+        <section id="visiting-tips">
+            <h2>Visiting Tips</h2>
+            <ul>
+                <li>Best Time to Visit: Early mornings or late afternoons are ideal for avoiding the heat and crowds.</li>
+                <li>Mass Schedule: Check the schedule for mass times if you wish to participate in a service; special events may also be held on significant religious dates.</li>
+                <li>Dress Code: As a place of worship, modest attire is appreciated; consider wearing clothing that covers shoulders and knees.</li>
+                <li>Photography: While taking photos is allowed, be respectful of worshippers and the sacred atmosphere.</li>
+            </ul>
+        </section>
+
+        <section id="transportation">
+            <h2>Transportation</h2>
+            <p>The Manila Cathedral is conveniently located in Intramuros, making it easily accessible via various modes of transportation. The Light Rail Transit (LRT) can be taken to the Central Station, followed by a short walk to the cathedral. Alternatively, taxis and ride-hailing services are readily available. For a more immersive experience, consider exploring the nearby historical sites and attractions on foot.</p>
+        </section> 
+        
+        <section id="time_open">
+            <h2>Time Open</h2>
+            <p>The Manila Cathedral is open to the public daily, with visiting hours typically from 8:00 AM to 5:00 PM. However, it is advisable to check for any changes in schedule due to special events or holidays. Mass schedules may vary, so visiting during the designated times can enhance your experience of this beautiful place of worship.</p>
+        </section>
+
+        <section id="image-collage">
+            <h2>Image Collage</h2>
+            <div class="collage">
+                <img src="images/Manila/Pilgrims/ManilaCathedral/Manila_Cathedral_Interior.jpg" alt="Fort Santiago View 1">
+                <img src="images/Manila/Pilgrims/ManilaCathedral/6th_Cathedral.jpg" alt="Fort Santiago View 2">
+                <img src="images/Manila/Pilgrims/ManilaCathedral/manila_cathedral_Present.jpg" alt="Fort Santiago View 3">
+                <img src="images/Manila/Pilgrims/ManilaCathedral/Catedral_de_la_Inmaculada_Concepción.jpg" alt="Fort Santiago View 4">
+                <img src="images/Manila/Pilgrims/ManilaCathedral/Manila_Cathedral_Ruins.jpg" alt="Fort Santiago View 5">
+                <img src="images/Manila/Pilgrims/ManilaCathedral/Manila_Cathedral_Altar.jpg" alt="Fort Santiago View 6">
+            </div>
+        </section>
+
+        <!--tawagan-->
+        <section id="contact">
+            <h2>Contact <span class="way">Us</span></h2>
+            <form id="contactForm" onsubmit="return submitForm();">
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required placeholder="Enter your name">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required placeholder="Enter your email">
+                </div>
+                <div class="form-group">
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" required placeholder="Type your message here"></textarea>
+                </div>
+                <button type="submit" class="btn">Send</button>
+            </form>
+        </section>        
+    </main>
+
+    <!--paa-->
+    <footer>
+            <div class="footer-bottom">
+                <p>&copy; 2024 DUN SA FAR FAR AWAY. All rights reserved.</p>
+            </div>
+    </footer>
+
+    <script src="navbar.js"></script>
+</body>
+</html>

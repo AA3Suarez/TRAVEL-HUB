@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="descriptions.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>HINULUGANG TAKTAK</title>
+</head>
+<body>
+    <header>
+        <!--Navigation bar container-->
+        <nav id="Home" class="navbar"> <!--Logo "JUAN WAY"-->
+            <div class="logo">
+                <p>HINULUGANG<span class="way">TAKTAK</span></p>
+            </div>
+            <!--Contents of Navigation bar e.g. home, about us, etc.-->
+            <ul class="navinfo">
+                <li><a href="Antipolo.html">Home</a></li>
+                <li><a href="#image-collage">Image Collage</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <!--Sign-up form-button-->
+                    <a href="sign-upform.html" class="button">Book Now</a>
+                <div class="hamburger"> 
+                    <span class="line"></span>
+                    <span class="line"></span>
+                    <span class="line"></span>
+                </div>
+        </nav>
+
+            <div class="menubar">
+              <ul>
+                    <li>
+                        <a href="Antipolo.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="#image-collage">Image Collage</a>
+                    </li>
+                    <li>
+                        <a href="#contact">Contact</a>
+                    </li>
+              </ul>
+            </div>
+    </header>
+
+    <main>
+        <section id="history">
+            <h2>History</h2>
+            <p>Hinulugang Taktak is a historic waterfall located in Antipolo City, Rizal Province, and has long been a popular attraction for locals and tourists alike. The falls have been referenced in stories dating back to the Spanish colonial era, earning its name from a local legend in which a large church bell ("taktak") was thrown into the waterfall to maintain peace and quiet for nearby residents. Over the years, Hinulugang Taktak has become a symbol of Antipolo’s natural beauty and a celebrated recreational site.</p>
+        </section>
+        
+        <section id="attractions">
+            <h2>Attractions</h2>
+            <p>Hinulugang Taktak is known for its picturesque waterfall, surrounded by lush greenery and natural rock formations. Visitors can enjoy the serene atmosphere, picnic areas, and nature trails that provide a refreshing escape from the city. The park has been revitalized with new facilities, including a swimming pool and viewing decks that offer stunning views of the falls. It's an ideal spot for those looking to experience nature, take photographs, or simply unwind to the sound of cascading water.</p>
+        </section>
+        
+        <section id="visiting-tips">
+            <h2>Visiting Tips</h2>
+            <ul>
+                <li>Best Time to Visit: Early mornings and weekdays are best for avoiding crowds and experiencing the falls in a tranquil setting.</li>
+                <li>Safety: Always stay within designated areas for your safety, and follow any rules or guidelines provided by park management.</li>
+                <li>Bring Essentials: Bring drinking water, sunscreen, and a hat for protection against the sun, especially if planning a longer stay.</li>
+                <li>Environment: Help maintain the beauty of the site by disposing of trash properly and respecting the natural habitat.</li>
+            </ul>
+        </section>
+        
+        <section id="transportation">
+            <h2>Transportation</h2>
+            <p>Hinulugang Taktak is located in Antipolo City and can be reached by various modes of transportation. From Metro Manila, take a jeepney or bus bound for Antipolo City. Once in Antipolo, tricycles are available for a short ride to the falls. For those driving, the site is accessible via Sumulong Highway, with parking facilities available at the park.</p>
+        </section>
+        
+        <section id="time_open">
+            <h2>Time Open</h2>
+            <p>Hinulugang Taktak is typically open daily from 8:00 AM to 5:00 PM. It is recommended to check for any changes in hours, especially on public holidays or during maintenance periods. Entrance fees may apply, so be sure to bring cash for admission.</p>
+        </section>
+        
+        <section id="image-collage">
+            <h2>Image Collage</h2>
+            <div class="collage">
+                <img src="images/Antipolo/HinulugangTakTak/hinulugang-taktak1.jpg" alt="1">
+                <img src="images/Antipolo/HinulugangTakTak/Hinulugang-Taktak2.jpg" alt="2">
+                <img src="images/Antipolo/HinulugangTakTak/hinulugang-taktak3.webp" alt="3">
+                <img src="images/Antipolo/HinulugangTakTak/hinulugang-taktak4.jpg" alt="4">
+                <img src="images/Antipolo/HinulugangTakTak/hinulugangtaktak-5.jpg" alt="5">
+                <img src="images/Antipolo/HinulugangTakTak/Hinulugang_Taktak.jpg" alt="6">
+            </div>
+        </section>        
+
+        <!--tawagan-->        
+        <section id="contact">
+            <h2>Contact <span class="way">Us</span></h2>
+            <form id="contactForm" onsubmit="return submitForm();">
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required placeholder="Enter your name">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required placeholder="Enter your email">
+                </div>
+                <div class="form-group">
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" required placeholder="Type your message here"></textarea>
+                </div>
+                <button type="submit" class="btn">Send</button>
+            </form>
+        </section>        
+    </main>
+
+    <!--paa-->
+    <footer>
+            <div class="footer-bottom">
+                <p>&copy; 2024 DUN SA FAR FAR AWAY. All rights reserved.</p>
+            </div>
+    </footer>
+
+    <script src="navbar.js"></script>
+</body>
+</html>

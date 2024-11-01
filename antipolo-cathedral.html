@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="descriptions.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>ANTIPOLO CATHEDRAL</title>
+</head>
+<body>
+    <header>
+        <!--Navigation bar container-->
+        <nav id="Home" class="navbar"> <!--Logo "JUAN WAY"-->
+            <div class="logo">
+                <p>ANTIPOLO<span class="way">CATHEDRAL</span></p>
+            </div>
+            <!--Contents of Navigation bar e.g. home, about us, etc.-->
+            <ul class="navinfo">
+                <li><a href="Antipolo.html">Home</a></li>
+                <li><a href="#image-collage">Image Collage</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <!--Sign-up form-button-->
+                    <a href="sign-upform.html" class="button">Book Now</a>
+                <div class="hamburger"> 
+                    <span class="line"></span>
+                    <span class="line"></span>
+                    <span class="line"></span>
+                </div>
+        </nav>
+
+            <div class="menubar">
+              <ul>
+                    <li>
+                        <a href="homepage.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="#image-collage">Image Collage</a>
+                    </li>
+                    <li>
+                        <a href="#contact">Contact</a>
+                    </li>
+              </ul>
+            </div>
+    </header>
+
+    <main>
+        <section id="history">
+            <h2>History</h2>
+            <p>The Antipolo Cathedral, officially known as the National Shrine of Our Lady of Peace and Good Voyage, has a rich history dating back to its establishment as a parish in 1954. It gained prominence after the image of the Our Lady of Peace and Good Voyage was declared the official patroness of the Diocese of Antipolo in 1983. In 2016, it was elevated to a national shrine, recognizing its importance as a pilgrimage site. The site attracts thousands of devotees, particularly during Holy Week and Marian feasts, as they seek spiritual guidance and blessings.</p>
+        </section>
+        
+        <section id="architecture">
+            <h2>Architecture</h2>
+            <p>The Antipolo Cathedral showcases a blend of modern and traditional architectural styles. Its prominent dome is a striking feature that can be seen from a distance. The exterior is characterized by elegant arches and a grand entrance, adorned with intricate details and floral decorations. Inside, visitors are welcomed by high ceilings, beautiful stained glass windows, and religious artworks that contribute to a serene atmosphere. The main altar, featuring the image of the Our Lady of Peace and Good Voyage, serves as the focal point of the cathedral.</p>
+        </section>
+        
+        <section id="visiting-tips">
+            <h2>Visiting Tips</h2>
+            <ul>
+                <li>Best Time to Visit: Weekdays and early mornings are ideal for avoiding crowds and enjoying a peaceful visit.</li>
+                <li>Dress Code: Modest attire is appreciated; visitors are encouraged to cover shoulders and knees.</li>
+                <li>Photography: While photography is generally allowed, it's respectful to avoid using flash during services.</li>
+                <li>Check Mass Schedule: If you wish to participate in a service, check the schedule for mass times, especially during holidays.</li>
+            </ul>
+        </section>
+        
+        <section id="transportation">
+            <h2>Transportation</h2>
+            <p>The Antipolo Cathedral is located in Antipolo City, making it accessible via various modes of transportation. From Metro Manila, visitors can drive or take a jeepney to Antipolo. Buses and vans are also available from several points in Metro Manila. If traveling by car, take the Ortigas Avenue Extension or Marcos Highway, with parking available at the cathedral.</p>
+        </section>
+        
+        <section id="time_open">
+            <h2>Time Open</h2>
+            <p>The Antipolo Cathedral is open daily, with visiting hours typically from 6:00 AM to 8:00 PM. Mass services are held regularly, with special schedules during holidays and feast days. It is advisable to check for any changes in schedule to enhance your experience of this significant place of worship.</p>
+        </section>
+        
+        <section id="image-collage">
+            <h2>Image Collage</h2>
+            <div class="collage">
+                <img src="images/Antipolo/AntipoloCathedral/Antipolo_cathedral.jpeg" alt="Antipolo Cathedral Interior">
+                <img src="images/Antipolo/AntipoloCathedral/antipolocathedral1.jpg" alt="Antipolo Cathedral Exterior">
+                <img src="images/Antipolo/AntipoloCathedral/antipolocathedral2.jpeg" alt="Antipolo Cathedral Altar">
+                <img src="images/Antipolo/AntipoloCathedral/antipolocathedral3.jpg" alt="Pilgrimage at Antipolo Cathedral">
+                <img src="images/Antipolo/AntipoloCathedral/antipolocathedral4.jpg" alt="Antipolo Cathedral Dome">
+                <img src="images/Antipolo/AntipoloCathedral/antipolocathedral5.jpg" alt="Antipolo Cathedral Artworks">
+            </div>
+        </section>        
+
+        <!--tawagan-->        
+        <section id="contact">
+            <h2>Contact <span class="way">Us</span></h2>
+            <form id="contactForm" onsubmit="return submitForm();">
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required placeholder="Enter your name">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required placeholder="Enter your email">
+                </div>
+                <div class="form-group">
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" required placeholder="Type your message here"></textarea>
+                </div>
+                <button type="submit" class="btn">Send</button>
+            </form>
+        </section>        
+    </main>
+
+    <!--paa-->
+    <footer>
+            <div class="footer-bottom">
+                <p>&copy; 2024 DUN SA FAR FAR AWAY. All rights reserved.</p>
+            </div>
+    </footer>
+
+    <script src="navbar.js"></script>
+</body>
+</html>

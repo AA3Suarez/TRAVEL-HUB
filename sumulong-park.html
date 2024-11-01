@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="descriptions.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>SUMULONG PARK</title>
+</head>
+<body>
+    <header>
+        <!--Navigation bar container-->
+        <nav id="Home" class="navbar"> <!--Logo "JUAN WAY"-->
+            <div class="logo">
+                <p>SUMULONG<span class="way">PARK</span></p>
+            </div>
+            <!--Contents of Navigation bar e.g. home, about us, etc.-->
+            <ul class="navinfo">
+                <li><a href="Antipolo.html">Home</a></li>
+                <li><a href="#image-collage">Image Collage</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <!--Sign-up form-button-->
+                    <a href="sign-upform.html" class="button">Book Now</a>
+                <div class="hamburger"> 
+                    <span class="line"></span>
+                    <span class="line"></span>
+                    <span class="line"></span>
+                </div>
+        </nav>
+
+            <div class="menubar">
+              <ul>
+                    <li>
+                        <a href="Antipolo.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="#image-collage">Image Collage</a>
+                    </li>
+                    <li>
+                        <a href="#contact">Contact</a>
+                    </li>
+              </ul>
+            </div>
+    </header>
+
+    <main>
+        <section id="history">
+            <h2>History</h2>
+            <p>Sumulong Park, located in Antipolo City, Rizal Province, is a public park named after Senator Juan Sumulong, a prominent Filipino political figure known for his contributions to Philippine politics and education. The park has served as a gathering spot for locals and tourists for many years, offering a peaceful setting amidst the bustling city. Situated near the Antipolo Cathedral, it has become a popular stop for visitors who wish to take a break, reflect, or enjoy the scenic views of the city and surrounding landscapes.</p>
+        </section>
+        
+        <section id="attractions">
+            <h2>Attractions</h2>
+            <p>Sumulong Park offers a serene environment with landscaped gardens, paved pathways, and benches perfect for leisurely strolls and relaxation. The park’s central feature is its well-maintained plaza, often adorned with seasonal decorations and lights, making it an inviting place during evenings and special holidays. The park provides a view of Metro Manila's skyline, enhancing its appeal as a scenic spot for photography and quiet contemplation. Additionally, the park hosts local events, performances, and public gatherings that showcase Antipolo’s culture and community spirit.</p>
+        </section>
+        
+        <section id="visiting-tips">
+            <h2>Visiting Tips</h2>
+            <ul>
+                <li>Best Time to Visit: Early mornings and late afternoons offer cooler weather and fewer crowds.</li>
+                <li>Photography: Bring a camera or smartphone to capture the city views and the vibrant atmosphere of the park.</li>
+                <li>Nearby Attractions: Consider visiting the nearby Antipolo Cathedral for a complete cultural and historical experience.</li>
+                <li>Family-Friendly: Sumulong Park is ideal for families, so feel free to bring kids along for a relaxed outing.</li>
+            </ul>
+        </section>
+        
+        <section id="transportation">
+            <h2>Transportation</h2>
+            <p>Sumulong Park is conveniently located near the Antipolo Cathedral and is easily accessible from Metro Manila. Take a jeepney or bus bound for Antipolo City, and once in the city center, the park is just a short walk from the main plaza. Tricycles are also available for more direct transportation. For those driving, parking facilities can be found nearby.</p>
+        </section>
+        
+        <section id="time_open">
+            <h2>Time Open</h2>
+            <p>Sumulong Park is open to the public daily, generally from early morning until evening. While there is no entrance fee, it’s best to visit during daylight hours to fully appreciate the park's beauty and amenities. Special events may extend the park's accessibility, especially during festivals and holidays.</p>
+        </section>
+        
+        <section id="image-collage">
+            <h2>Image Collage</h2>
+            <div class="collage">
+                <img src="images/Antipolo/SumulongPark/sumulong-park1.JPG" alt="1">
+                <img src="images/Antipolo/SumulongPark/sumulong-park2.jpg" alt="2">
+                <img src="images/Antipolo/SumulongPark/sumulong-park3.jpg" alt="3">
+                <img src="images/Antipolo/SumulongPark/sumulong-park4.jpg" alt="4">
+                <img src="images/Antipolo/SumulongPark/Antipolo_Sumulong_Park.jpg" alt="5">
+            </div>
+        </section>        
+
+        <!--tawagan-->        
+        <section id="contact">
+            <h2>Contact <span class="way">Us</span></h2>
+            <form id="contactForm" onsubmit="return submitForm();">
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required placeholder="Enter your name">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required placeholder="Enter your email">
+                </div>
+                <div class="form-group">
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" required placeholder="Type your message here"></textarea>
+                </div>
+                <button type="submit" class="btn">Send</button>
+            </form>
+        </section>        
+    </main>
+
+    <!--paa-->
+    <footer>
+            <div class="footer-bottom">
+                <p>&copy; 2024 DUN SA FAR FAR AWAY. All rights reserved.</p>
+            </div>
+    </footer>
+
+    <script src="navbar.js"></script>
+</body>
+</html>

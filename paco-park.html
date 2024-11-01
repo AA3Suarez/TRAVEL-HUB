@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="descriptions.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>PACO PARK</title>
+</head>
+<body>
+    <header>
+        <!--Navigation bar container-->
+        <nav id="Home" class="navbar"> <!--Logo "JUAN WAY"-->
+            <div class="logo">
+                <p>PACO<span class="way">PARK</span></p>
+            </div>
+            <!--Contents of Navigation bar e.g. home, about us, etc.-->
+            <ul class="navinfo">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#image-collage">Image Collage</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <!--Sign-up form-button-->
+                    <a href="sign-upform.html" class="button">Book Now</a>
+                <div class="hamburger"> 
+                    <span class="line"></span>
+                    <span class="line"></span>
+                    <span class="line"></span>
+                </div>
+        </nav>
+
+            <div class="menubar">
+              <ul>
+                    <li>
+                        <a href="homepage.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="#image-collage">Image Collage</a>
+                    </li>
+                    <li>
+                        <a href="#contact">Contact</a>
+                    </li>
+              </ul>
+            </div>
+    </header>
+
+    <main>
+        <section id="history">
+            <h2>History of Paco Park</h2>
+            <p>Paco Park was originally established in the late 19th century as a cemetery for the Spanish elite. It was the burial site of notable figures, including the national hero, Dr. José Rizal, before his remains were transferred to Rizal Park. In the 1970s, Paco Park was transformed into a public park, preserving its historical significance while providing a serene space for relaxation and cultural activities. Today, it serves as a venue for various events, including weddings and concerts.</p>
+        </section>
+
+        <section id="architecture">
+            <h2>Architecture</h2>
+            <p>The architecture of Paco Park reflects a blend of neoclassical and colonial influences. The park features a circular design with a charming central garden surrounded by stone walls, pathways, and remnants of old tombs. The main structure, a small chapel known as the Paco Park Chapel, showcases intricate details, including stained-glass windows and a bell tower, creating a picturesque backdrop for visitors and photographers alike.</p>
+        </section>
+
+        <section id="visiting-tips">
+            <h2>Visiting Tips</h2>
+            <p>For a peaceful experience, visit Paco Park during weekdays when it is less crowded. Early mornings or late afternoons are ideal for enjoying the park's tranquility and taking photos. While there are benches for resting, bringing a picnic mat can enhance your visit. Be mindful of the park’s rules regarding noise levels and littering to help maintain its serene environment.</p>
+        </section>
+
+        <section id="transportation">
+            <h2>Transportation</h2>
+            <p>Paco Park is accessible via public transportation. The nearest LRT Line 1 station is Gil Puyat, which is a short taxi or jeepney ride away. Several jeepney routes also serve the area, making it convenient to reach from various parts of Manila. Taxis and rideshares are readily available, especially for those coming from farther locations.</p>
+        </section> 
+        
+        <section id="time_open">
+            <h2>Time Open</h2>
+            <p>Paco Park is open daily from early morning until late evening, providing ample time for visitors to explore its beauty. While entrance to the park is free, there may be fees for certain events or guided tours. Checking their schedule for special activities or events is recommended to enhance your visit.</p>
+        </section>
+
+        <section id="image-collage">
+            <h2>Image Collage</h2>
+            <div class="collage">
+                <img src="images/Manila/PublicPlaces/PacoPark/Paco_Park1.jpg" alt="1">
+                <img src="images/Manila/PublicPlaces/PacoPark/Park.JPG" alt="2">
+                <img src="images/Manila/PublicPlaces/PacoPark/Chapel.jpg" alt="3">
+                <img src="images/Manila/PublicPlaces/PacoPark/Modern_Day_Paco.JPG" alt="4">
+                <img src="images/Manila/PublicPlaces/PacoPark/Paco_Park_Arc.jpg" alt="5">
+                <img src="images/Manila/PublicPlaces/PacoPark/Old_Wall.jpg" alt="6">
+            </div>
+        </section>
+
+        <!--tawagan-->
+        <section id="contact">
+            <h2>Contact <span class="way">Us</span></h2>
+            <form id="contactForm" onsubmit="return submitForm();">
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required placeholder="Enter your name">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required placeholder="Enter your email">
+                </div>
+                <div class="form-group">
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" required placeholder="Type your message here"></textarea>
+                </div>
+                <button type="submit" class="btn">Send</button>
+            </form>
+        </section>        
+    </main>
+
+    <!--paa-->
+    <footer>
+            <div class="footer-bottom">
+                <p>&copy; 2024 DUN SA FAR FAR AWAY. All rights reserved.</p>
+            </div>
+    </footer>
+
+    <script src="navbar.js"></script>
+</body>
+</html>

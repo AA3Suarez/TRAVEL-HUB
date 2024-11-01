@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="descriptions.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>QUIAPO CHURCH</title>
+</head>
+<body>
+    <header>
+        <!--Navigation bar container-->
+        <nav id="Home" class="navbar"> <!--Logo "JUAN WAY"-->
+            <div class="logo">
+                <p>QUIAPO<span class="way">CHURCH</span></p>
+            </div>
+            <!--Contents of Navigation bar e.g. home, about us, etc.-->
+            <ul class="navinfo">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#image-collage">Image Collage</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <!--Sign-up form-button-->
+                    <a href="sign-upform.html" class="button">Book Now</a>
+                <div class="hamburger"> 
+                    <span class="line"></span>
+                    <span class="line"></span>
+                    <span class="line"></span>
+                </div>
+        </nav>
+
+            <div class="menubar">
+              <ul>
+                    <li>
+                        <a href="homepage.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="#image-collage">Image Collage</a>
+                    </li>
+                    <li>
+                        <a href="#contact">Contact</a>
+                    </li>
+              </ul>
+            </div>
+    </header>
+
+    <main>
+        <section id="history">
+            <h2>History of Quaipo Church</h2>
+            <p>Quiapo Church, officially known as the Minor Basilica of the Black Nazarene, has a deep historical significance in Manila. It dates back to the 16th century when the original structure was built by Spanish missionaries. Over time, it has been rebuilt due to fires and natural disasters. The church is renowned for housing the revered Black Nazarene, a life-sized dark wooden statue of Jesus Christ that was brought to the Philippines from Mexico in the 1600s.</p>
+        </section>
+
+        <section id="architecture">
+            <h2>Architecture</h2>
+            <p>The architecture of Quiapo Church is a blend of Baroque and Neoclassical styles, showcasing intricate designs and artistic details that reflect its storied past. The façade is adorned with columns, arches, and religious statues that symbolize faith and tradition. Inside, the spacious nave and high ceilings create an atmosphere of solemnity and devotion, emphasizing the church's importance as a spiritual center.</p>
+        </section>
+
+        <section id="visiting-tips">
+            <h2>Visiting Tips</h2>
+            <p>Visiting Quiapo Church can be an enriching experience, especially during Fridays and on the Feast of the Black Nazarene in January, when thousands of devotees gather. Arrive early to avoid crowds and experience the Mass peacefully. Be cautious of your belongings, as the area can get crowded. Dress modestly as a sign of respect, and consider bringing offerings or prayers to participate in the local religious practices.</p>
+        </section>
+
+        <section id="transportation">
+            <h2>Transportation</h2>
+            <p>Quiapo Church is accessible through various means of public transportation. Jeepneys and buses heading to Quiapo are plentiful from different parts of Metro Manila. The LRT Line 1 has a station nearby at Carriedo, making it convenient for those traveling via the train. Taxis and rideshares are also easy options, especially for first-time visitors.</p>
+        </section> 
+        
+        <section id="time_open">
+            <h2>Time Open</h2>
+            <p>The church is generally open daily from early morning until late evening to accommodate the continuous flow of visitors and devotees. Specific hours may vary, so it's best to check the official church schedule or their social media pages for updates on special events and Mass times.</p>
+        </section>
+
+        <section id="image-collage">
+            <h2>Image Collage</h2>
+            <div class="collage">
+                <img src="images/Manila/Pilgrims/QuiapoChuch/Old_Quiapo.jpg" alt="1">
+                <img src="images/Manila/Pilgrims/QuiapoChuch/Poong_Nazareno.jpg" alt="2">
+                <img src="images/Manila/Pilgrims/QuiapoChuch/Quiapo1.jpg" alt="3">
+                <img src="images/Manila/Pilgrims/QuiapoChuch/Quiapo3.jpg" alt="4">
+                <img src="images/Manila/Pilgrims/QuiapoChuch/Quiapo2.JPG" alt="5">
+                <img src="images/Manila/Pilgrims/QuiapoChuch/QuiapoPng1.jpg" alt="6">
+            </div>
+        </section>
+
+        <!--tawagan-->
+        <section id="contact">
+            <h2>Contact <span class="way">Us</span></h2>
+            <form id="contactForm" onsubmit="return submitForm();">
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required placeholder="Enter your name">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required placeholder="Enter your email">
+                </div>
+                <div class="form-group">
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" required placeholder="Type your message here"></textarea>
+                </div>
+                <button type="submit" class="btn">Send</button>
+            </form>
+        </section>        
+    </main>
+
+    <!--paa-->
+    <footer>
+            <div class="footer-bottom">
+                <p>&copy; 2024 DUN SA FAR FAR AWAY. All rights reserved.</p>
+            </div>
+    </footer>
+
+    <script src="navbar.js"></script>
+</body>
+</html>

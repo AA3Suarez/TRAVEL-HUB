@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="descriptions.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>NATIONAL MUSEUM OF FINE ARTS</title>
+</head>
+<body>
+    <header>
+        <!--Navigation bar container-->
+        <nav id="Home" class="navbar"> <!--Logo "JUAN WAY"-->
+            <div class="logo">
+                <p>FINE<span class="way">ARTS</span></p>
+            </div>
+            <!--Contents of Navigation bar e.g. home, about us, etc.-->
+            <ul class="navinfo">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#image-collage">Image Collage</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <!--Sign-up form-button-->
+                    <a href="sign-upform.html" class="button">Book Now</a>
+                <div class="hamburger"> 
+                    <span class="line"></span>
+                    <span class="line"></span>
+                    <span class="line"></span>
+                </div>
+        </nav>
+
+            <div class="menubar">
+              <ul>
+                    <li>
+                        <a href="homepage.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="#image-collage">Image Collage</a>
+                    </li>
+                    <li>
+                        <a href="#contact">Contact</a>
+                    </li>
+              </ul>
+            </div>
+    </header>
+
+    <main>
+        <section id="history">
+            <h2>History of National Museum of Fine Arts</h2>
+            <p>The National Museum of Fine Arts, located in Manila, is part of the National Museum Complex and serves as a major cultural and historical institution in the Philippines. Established in 1901, the museum has evolved over the decades and is housed in what was once the Old Legislative Building. It showcases the rich artistic heritage of the country, featuring works from prominent Filipino artists, including Juan Luna and Fernando Amorsolo. The museum is dedicated to preserving and promoting Philippine art, history, and culture.</p>
+        </section>
+
+        <section id="architecture">
+            <h2>Architecture</h2>
+            <p>The National Museum of Fine Arts boasts Neoclassical architecture, characterized by grand columns, intricate moldings, and spacious galleries. The building’s façade features classical elements that reflect its history as a former legislative structure. Inside, high ceilings and elegant halls create an atmosphere of prestige, with exhibits carefully curated to highlight both contemporary and historical masterpieces. The museum's layout is designed for an enriching journey through various periods and styles of Filipino art.</p>
+        </section>
+
+        <section id="visiting-tips">
+            <h2>Visiting Tips</h2>
+            <p>Plan to spend a few hours to fully appreciate the extensive collection of artworks and exhibits. Admission is typically free, but it’s best to check for any changes or special events that may affect entrance. Photography may be restricted in certain areas, so be mindful of posted signs. Dress comfortably and bring a notebook if you wish to take notes about the art pieces or exhibitions.</p>
+        </section>
+
+        <section id="transportation">
+            <h2>Transportation</h2>
+            <p>The National Museum of Fine Arts is easily accessible via public transportation. The nearest LRT Line 1 station is United Nations Avenue, from which the museum is a short walk away. Jeepneys and buses passing through Taft Avenue and Padre Burgos Street can also drop you nearby. Rideshares and taxis are convenient options, especially for visitors coming in groups or from other parts of Metro Manila.</p>
+        </section> 
+        
+        <section id="time_open">
+            <h2>Time Open</h2>
+            <p>The museum is generally open from Tuesday to Sunday, from mid-morning to late afternoon. It is closed on Mondays and during public holidays, so it's advisable to check their official website or social media for up-to-date information on opening hours and special exhibits.</p>
+        </section>
+
+        <section id="image-collage">
+            <h2>Image Collage</h2>
+            <div class="collage">
+                <img src="images/Manila/Museums/FineArts/Fine_Arts1.jpg" alt="1">
+                <img src="images/Manila/Museums/FineArts/Fine_Arts2.jpg" alt="2">
+                <img src="images/Manila/Museums/FineArts/Fine_Arts_Ruins.jpg" alt="3">
+                <img src="images/Manila/Museums/FineArts/Hall.jpg" alt="4">
+                <img src="images/Manila/Museums/FineArts/Spolliarium.jpg" alt="5">
+            </div>
+        </section>
+
+        <!--tawagan-->
+        <section id="contact">
+            <h2>Contact <span class="way">Us</span></h2>
+            <form id="contactForm" onsubmit="return submitForm();">
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required placeholder="Enter your name">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required placeholder="Enter your email">
+                </div>
+                <div class="form-group">
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" required placeholder="Type your message here"></textarea>
+                </div>
+                <button type="submit" class="btn">Send</button>
+            </form>
+        </section>        
+    </main>
+
+    <!--paa-->
+    <footer>
+            <div class="footer-bottom">
+                <p>&copy; 2024 DUN SA FAR FAR AWAY. All rights reserved.</p>
+            </div>
+    </footer>
+
+    <script src="navbar.js"></script>
+</body>
+</html>

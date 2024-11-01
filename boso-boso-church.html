@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="descriptions.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>BOSO BOSO CHURCH</title>
+</head>
+<body>
+    <header>
+        <!--Navigation bar container-->
+        <nav id="Home" class="navbar"> <!--Logo "JUAN WAY"-->
+            <div class="logo">
+                <p>BOSO-BOSO<span class="way">CHURCH</span></p>
+            </div>
+            <!--Contents of Navigation bar e.g. home, about us, etc.-->
+            <ul class="navinfo">
+                <li><a href="Antipolo.html">Home</a></li>
+                <li><a href="#image-collage">Image Collage</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <!--Sign-up form-button-->
+                    <a href="sign-upform.html" class="button">Book Now</a>
+                <div class="hamburger"> 
+                    <span class="line"></span>
+                    <span class="line"></span>
+                    <span class="line"></span>
+                </div>
+        </nav>
+
+            <div class="menubar">
+              <ul>
+                    <li>
+                        <a href="Antipolo.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="#image-collage">Image Collage</a>
+                    </li>
+                    <li>
+                        <a href="#contact">Contact</a>
+                    </li>
+              </ul>
+            </div>
+    </header>
+
+    <main>
+        <section id="history">
+            <h2>History</h2>
+            <p>Boso-Boso Church, officially known as the Our Lady of the Abandoned Parish Church, was established in 1669, making it one of the oldest churches in the Philippines. Originally built as a small chapel, the church has undergone several renovations and reconstructions due to damage from natural disasters, including earthquakes. The current structure, completed in 1953, showcases a blend of historical and modern architectural elements. It has long served as a spiritual center for the local community, hosting various religious events and celebrations, particularly during the feast of Our Lady of the Abandoned.</p>
+        </section>
+        
+        <section id="architecture">
+            <h2>Architecture</h2>
+            <p>The Boso-Boso Church features a charming combination of traditional and modern architectural styles. Its façade is characterized by a simple yet elegant design, with a prominent bell tower and arched entrance. Inside, the church boasts high wooden ceilings and beautiful stained glass windows that allow natural light to filter into the worship space, creating a serene atmosphere. The altar is adorned with religious icons and decorations that reflect the church's dedication to its patroness, the Our Lady of the Abandoned.</p>
+        </section>
+        
+        <section id="visiting-tips">
+            <h2>Visiting Tips</h2>
+            <ul>
+                <li>Best Time to Visit: Weekdays are less crowded, allowing for a more peaceful experience; early mornings are ideal for quiet reflection.</li>
+                <li>Mass Schedule: Check the mass schedule if you wish to participate in services, especially during significant religious occasions.</li>
+                <li>Dress Code: As a place of worship, modest attire is encouraged; clothing that covers shoulders and knees is appreciated.</li>
+                <li>Photography: Visitors may take photos inside the church, but be mindful of worshippers and the sacred environment.</li>
+            </ul>
+        </section>
+        
+        <section id="transportation">
+            <h2>Transportation</h2>
+            <p>Boso-Boso Church is located in the scenic hills of Antipolo City, accessible by various modes of transportation. From Metro Manila, you can take a jeepney or bus heading to Antipolo and then transfer to a jeepney or tricycle that goes to Boso-Boso. If traveling by car, take the Ortigas Avenue Extension or Marcos Highway, and follow signs to Boso-Boso. Limited parking is available near the church for visitors.</p>
+        </section>
+        
+        <section id="time_open">
+            <h2>Time Open</h2>
+            <p>The Boso-Boso Church is open daily, typically from 6:00 AM to 6:00 PM. Regular mass services are held throughout the week, with additional schedules during special religious events and holidays. It’s advisable to check for any updates regarding mass times or events before your visit.</p>
+        </section>
+        
+        <section id="image-collage">
+            <h2>Image Collage</h2>
+            <div class="collage">
+                <img src="images/Antipolo/BosoBosoChurch/boso-boso-church1.jpg" alt="1">
+                <img src="images/Antipolo/BosoBosoChurch/boso-boso-church2.jpg" alt="2">
+                <img src="images/Antipolo/BosoBosoChurch/boso boso 3.jpg" alt="3">
+                <img src="images/Antipolo/BosoBosoChurch/boso boso 4.jpg" alt="4">
+                <img src="images/Antipolo/BosoBosoChurch/Boso-Boso_Church_gate5.JPG" alt="5">
+                <img src="images/Antipolo/BosoBosoChurch/BosoBoso_Church.jpg" alt="6">
+            </div>
+        </section>        
+
+        <!--tawagan-->        
+        <section id="contact">
+            <h2>Contact <span class="way">Us</span></h2>
+            <form id="contactForm" onsubmit="return submitForm();">
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required placeholder="Enter your name">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required placeholder="Enter your email">
+                </div>
+                <div class="form-group">
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" required placeholder="Type your message here"></textarea>
+                </div>
+                <button type="submit" class="btn">Send</button>
+            </form>
+        </section>        
+    </main>
+
+    <!--paa-->
+    <footer>
+            <div class="footer-bottom">
+                <p>&copy; 2024 DUN SA FAR FAR AWAY. All rights reserved.</p>
+            </div>
+    </footer>
+
+    <script src="navbar.js"></script>
+</body>
+</html>

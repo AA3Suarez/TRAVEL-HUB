@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="descriptions.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>RIZAL PARK</title>
+</head>
+<body>
+    <header>
+        <!--Navigation bar container-->
+        <nav id="Home" class="navbar"> <!--Logo "JUAN WAY"-->
+            <div class="logo">
+                <p>RIZAL<span class="way">PARK</span></p>
+            </div>
+            <!--Contents of Navigation bar e.g. home, about us, etc.-->
+            <ul class="navinfo">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#image-collage">Image Collage</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <!--Sign-up form-button-->
+                    <a href="sign-upform.html" class="button">Book Now</a>
+                <div class="hamburger"> 
+                    <span class="line"></span>
+                    <span class="line"></span>
+                    <span class="line"></span>
+                </div>
+        </nav>
+
+            <div class="menubar">
+              <ul>
+                    <li>
+                        <a href="homepage.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="#image-collage">Image Collage</a>
+                    </li>
+                    <li>
+                        <a href="#contact">Contact</a>
+                    </li>
+              </ul>
+            </div>
+    </header>
+
+    <main>
+        <section id="history">
+            <h2>History of Rizal Park</h2>
+            <p>Rizal Park, also known as Luneta Park, is one of the most iconic and historically significant landmarks in the Philippines. Named after the national hero, Dr. José Rizal, the park is the site where he was executed by Spanish colonial authorities on December 30, 1896, sparking greater resistance that led to the Philippine Revolution. Established in the early 20th century, Rizal Park has since become a symbol of Filipino nationalism and a place for public gatherings and celebrations.</p>
+        </section>
+
+        <section id="architecture">
+            <h2>Architecture</h2>
+            <p>The park’s design seamlessly blends classical and modern elements. It features expansive gardens, paved walkways, and a range of monuments, with the Rizal Monument at its center. The monument, guarded by sentinels, contains Dr. Rizal’s remains and serves as a poignant tribute to his legacy. Other notable structures include the grand Independence Flagpole and various sculptures and fountains that add character to the vast park grounds.</p>
+        </section>
+
+        <section id="visiting-tips">
+            <h2>Visiting Tips</h2>
+            <p>Rizal Park is an excellent destination for relaxation and historical reflection. The best times to visit are early morning or late afternoon when the temperature is cooler. Wear comfortable clothing and bring a hat or umbrella for sun protection. The park is well-lit and safe to visit at night, especially for viewing the light and sound shows. Don’t miss nearby attractions like the National Museum Complex and Intramuros for a complete cultural experience.</p>
+        </section>
+
+        <section id="transportation">
+            <h2>Transportation</h2>
+            <p>Rizal Park is centrally located and easily accessible by public transportation. The LRT Line 1 United Nations Avenue Station and various jeepneys and buses pass by or stop near the park. Taxis and rideshare services are also readily available. If driving, there is limited parking, so arriving early is advisable.</p>
+        </section> 
+        
+        <section id="time_open">
+            <h2>Time Open</h2>
+            <p>The park is open daily, 24/7, and entrance is generally free. Special activities or events may have specific schedules, so it’s good to check any postings or the park's social media for updates on planned events or programs.</p>
+        </section>
+
+        <section id="image-collage">
+            <h2>Image Collage</h2>
+            <div class="collage">
+                <img src="images/Manila/PublicPlaces/RizalPark/Flag_Pole.jpg" alt="1">
+                <img src="images/Manila/PublicPlaces/RizalPark/Rizal_park1.jpg" alt="2">
+                <img src="images/Manila/PublicPlaces/RizalPark/Dancing_Fountains.jpg" alt="3">
+                <img src="images/Manila/PublicPlaces/RizalPark/Rizal_Monument/Old_Pictures.jpg" alt="4">
+                <img src="images/Manila/PublicPlaces/RizalPark/Rizal_Monument/Rizal_Execution.jpg" alt="5">
+                <img src="images/Manila/PublicPlaces/RizalPark/Rizal_Monument/Rizal_Memorial_Library.jpg" alt="6">
+            </div>
+        </section>
+
+        <!--tawagan-->
+        <section id="contact">
+            <h2>Contact <span class="way">Us</span></h2>
+            <form id="contactForm" onsubmit="return submitForm();">
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required placeholder="Enter your name">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required placeholder="Enter your email">
+                </div>
+                <div class="form-group">
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" required placeholder="Type your message here"></textarea>
+                </div>
+                <button type="submit" class="btn">Send</button>
+            </form>
+        </section>        
+    </main>
+
+    <!--paa-->
+    <footer>
+            <div class="footer-bottom">
+                <p>&copy; 2024 DUN SA FAR FAR AWAY. All rights reserved.</p>
+            </div>
+    </footer>
+
+    <script src="navbar.js"></script>
+</body>
+</html>
